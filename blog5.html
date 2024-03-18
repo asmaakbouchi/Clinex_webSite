@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clenix</title>
+    <link rel="stylesheet" href="styletest.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>  
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light  fixed-top">
+  <div class="container-fluid">
+       <a class="navbar-brand" href="#"><img src="image/logo.png" alt="" id="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="navitem">
+
+          <li class="nav-item"> <a class="nav-link active" aria-current="page" href="accueil.html">ACCUEIL</a></li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" >
+              A PROPOS
+            </a>
+            
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="apropos-nettoyage-casablanca.html">Nettoyage Casablanca</a>
+            </ul>
+          </li>
+
+          <li class="nav-item"><a class="nav-link" href="particuliers.html">PARTICULIERS</a></li>
+          <li class="nav-item"><a class="nav-link" href="professionnels.html">PROFESSIONNELS</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown">
+              SERVICES
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="service-nettoyage-bureaux.html">Nettoyage du Bureaux</a></li>
+              <li><a class="dropdown-item" href="service-femme-de-menage.html">Femme de ménage</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-fin-chantier.html">Nettoyage de fin de chantier</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-apres-travaux.html">Nettoyage après travaux</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-locaux.html">Nettoyage de locaux</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-maisons.html">Nettoyage des maisons</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-appartement.html">Nettoyage appartement</a>
+              <li><a class="dropdown-item" href="service-nettoyage-villas.html">Nettoyage de villas</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-immeubles-residences.html">Nettoyage immeubles et résidences</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-hotels.html">Nettoyage hotels</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-restaurants.html">Nettoyage de restaurants</a>
+              <li><a class="dropdown-item" href="service-nettoyage-vitre.html">Nettoyage de vitres</a>
+              <li><a class="dropdown-item" href="service-nettoyage-industriel.html">Nettoyage indusriel</a>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown">
+            ACTIVITIES
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="activite-nettoyage-moquette.html">Nettoyage moquette</a></li>
+              <li><a class="dropdown-item" href="activite-nettoyage-parquets.html">Nettoyage de parquets</a></li>
+              <li><a class="dropdown-item" href="activite-poncage-cristallisation-marbres.html">Ponçage et cristalisation des marbres</a></li>
+              <li><a class="dropdown-item" href="activite-nettoyage-cristallisation-carrelages.html">Nettoyage et cristallisation carrelages</a></li>
+              <li><a class="dropdown-item" href="activite-nettoyage-cristallisation-mosaiques.html">Nettoyage et cristallisation de mosaiques</a></li>
+              <li><a class="dropdown-item" href="activite-poncage-cristallisation-sols.html">Ponçage et cristallisation sols</a></li>
+              <li><a class="dropdown-item" href="activite-poncage-parquets.html">Ponçage du parquets</a>
+              <li><a class="dropdown-item" href="activite-nettoyage-tapis.html">Nettoyage de tapis</a></li>
+              <li><a class="dropdown-item" href="activite-nettoyage-canapes.html">Nettoyage de canapés</a></li>
+              <li><a class="dropdown-item" href="activite-nettoyage-entretien-chaises.html">Nettoyage et l'entretien des chaises</a></li>
+              <li><a class="dropdown-item" href="activite-nettoyage-degressage-hottes.html">Nettoyage et dégraissage des hottes</a>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">BLOG</a></li>  
+          <li class="nav-item"><a class="nav-link" href="contactez-nous.html">CONTACTEZ-NOUS</a></li>
+        </ul>
+        <a class="btn btn-warning type my-2 my-sm-0" href="devis.html" id="btn">DEMENDEZ-DEVIS</a>
+    </div>
+  </div>
+</nav>
+
+
+
+<div class="container-fuild" id="container-blog1" >
+
+<div class="container">
+  <div class="row"style="margin-top: 9%;">
+    <div class="col-md-8">
+      <div class="container" id="text-blog1">
+        <h4>Qu'est-ce que le nettoyage de fin de chantier ?</h4>
+        <div class="imgblog1" style="background-image: url(image/blog/blog5.png);"></div>  
+          <div>
+            <p>
+              Le nettoyage de fin de chantier est essentiel pour éliminer les salissures telles que poussière, gravats, déchets, oxydation,
+               calcaire, traces de colle, enrobés et peinture, générées par les travaux de construction ou de rénovation. Il permet de rendre 
+               les locaux propres, sûrs et sains avant leur livraison au client. Effectué généralement pendant la phase d’OPR, ce nettoyage 
+               final est réalisé par une entreprise de propreté spécialisée. 
+              ACCECIT explique en détail les spécificités et l’importance de ce processus de nettoyage en fin de construction.
+            </p>          
+          </div>             
+      </div>
+    </div>
+
+    <div class="col-md-4" >
+
+        <div class="racourci">
+            <div class="imgblog-cercl" style="background-image: url(image/blog/blog1.jpg);"></div>
+            <a class="card-title" href="blog1.html"><h6>Qu'est-ce que le nettoyage industriel ?</h6></a>
+        </div>
+        <hr id="blog-hr">
+
+        <div class="racourci">
+          <div class="imgblog-cercl" style="background-image: url(image/blog/blog2.jpg);"></div>
+          <a class="card-title" href="blog2.html"><h6>Clean desk : la solution de bureau sain et optimisé</h6></a>
+        </div>
+        <hr id="blog-hr">
+
+        <div class="racourci">
+          <div class="imgblog-cercl" style="background-image: url(image/blog/blog3.jpg);"></div>
+          <a class="card-title" href="blog3.html"><h6>Conseils pour laver les vitres comme un pro</h6></a>
+        </div>
+        <hr id="blog-hr">
+
+        <div class="racourci">
+          <div class="imgblog-cercl" style="background-image: url(image/blog/blog4.jpg);"></div>
+          <a class="card-title" href="blog4.html"><h6>Quels sont les métiers de propreté et de l'hygiène ?</h6></a>
+        </div>
+        <hr id="blog-hr">
+
+        <div class="racourci">
+          <div class="imgblog-cercl" style="background-image: url(image/blog/blog5.png);"></div>
+          <a class="card-title" href="blog5.html"><h6>Qu'est-ce que le nettoyage de fin de chantier ?</h6></a>
+        </div>
+        <hr id="blog-hr">
+
+        <div class="racourci">
+          <div class="imgblog-cercl" style="background-image: url(image/blog/blog6.jpg);"></div>
+          <a class="card-title" href="blog6.html"><h6>Conseils pour un nettoyage professionnel des sols</h6></a>
+        </div>
+        <hr id="blog-hr">
+
+    </div>     
+  </div>
+
+  <div class="row" style="margin-top: 5%;">
+      <div class="col-md-6">
+        <div class="container">
+          <h3>Les travaux concernés pour le nettoyage de fin de construction</h3>
+          <hr id="min-hr">
+            <h4>1. Retrait des débris et des matériaux de construction</h4>
+            <p>
+              Cela comprend les morceaux de bois, les clous, les vis, les chutes de plâtre, les résidus de ciment, etc. Il est essentiel de débarrasser 
+              l’espace de ces éléments pour éviter tout risque de blessure et pour faciliter les étapes de nettoyage suivantes.
+            </p>
+            <h4>2. Nettoyage des surfaces et des équipements</h4>
+            <p>
+              Une fois que les débris ont été enlevés, il est temps de nettoyer les surfaces et les équipements. Cela comprend le dépoussiérage 
+              des murs, des plafonds et des meubles, ainsi que le nettoyage des appareils électroménagers, des luminaires et des équipements sanitaires. 
+              Des produits de nettoyage spécifiques peuvent être utilisés en fonction des matériaux et des surfaces à traiter.
+            </p>
+            <h4>3. Élimination des résidus de peinture et de colle</h4>
+            <P>
+              Si des travaux de peinture ou de collage ont été effectués, il est important d’éliminer les résidus de peinture 
+              et de colle qui pourraient rester sur les surfaces. Des techniques spécifiques peuvent être utilisées,
+                telles que l’utilisation de dissolvants ou de grattoirs pour enlever ces résidus sans endommager les surfaces.
+            </P>
+            <h4>4. Nettoyage des sols et des tapis</h4>
+            <p>
+              Les sols et les tapis peuvent accumuler beaucoup de poussière, de saletés et de résidus pendant les travaux de
+                construction. Un nettoyage des sols en profondeur est donc nécessaire pour les rendre propres et sans traces. Selon le type de revêtement de sol, des méthodes telles
+                que le balayage, l’aspiration, le lavage à l’eau ou l’utilisation de nettoyeurs à vapeur peuvent être utilisées.
+            </p>
+            <h4>5. Nettoyage des fenêtres et des vitres</h4>
+            <p>
+              Les fenêtres et les vitres peuvent être tachées de résidus de peinture, de colle ou de poussière. Un nettoyage minutieux permet de 
+              les rendre transparentes et sans traces. Des produits spécifiques pour le nettoyage des vitres et des techniques appropriées, 
+              comme l’utilisation de raclettes et de chiffons non pelucheux, sont utilisés pour obtenir les meilleurs résultats.
+            </p>
+            <h4>6. Élimination des traces de poussière</h4>
+            <p>
+              La poussière est un élément inévitable lors des travaux de construction. Il est important de procéder à un nettoyage
+                minutieux pour éliminer toutes les traces de poussière. Cela inclut 
+              le dépoussiérage des surfaces, des luminaires, des conduits d’air et des autres éléments présents dans l’espace.
+            </p>
+            <h4>7. Désinfection des surfaces</h4>
+            <p>
+              En plus du nettoyage, la désinfection des surfaces est également essentielle pour assurer un environnement sain et hygiénique. Des produits désinfectants 
+              appropriés sont utilisés pour éliminer les germes, les bactéries et les virus qui pourraient être présents.
+            </p>
+            <h4>8. Aération des locaux après le nettoyage</h4>
+            <P>
+              Après avoir terminé le nettoyage, il est important d’aérer le chantier. Les produits utilisés pendant les travaux, tels que les peintures, 
+              les colles et les solvants, laissent souvent une forte odeur qui imprègne l’air du chantier. La dernière étape du nettoyage de fin de chantier consiste donc à purifier l’air en ouvrant les fenêtres et en laissant circuler l’air pendant plusieurs heures (ou 
+              au moins 30 minutes). Cela contribue grandement à la satisfaction du client et à la réception des travaux achevés.
+            </P>
+                        
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="container">
+          <h4>9. Contrôle de la qualité</h4>
+          <P>
+            Une fois que toutes les étapes de nettoyage ont été effectuées, un contrôle de qualité est réalisé pour s’assurer que rien n’a été négligé.
+              Ce protocole de nettoyage permet de garantir que l’espace est entièrement propre, sûr et prêt à être utilisé.
+          </P> 
+          
+          <h3 >Les outils et produits utilisés pour le nettoyage de fin de chantier</h3>
+          <hr id="min-hr">
+          <p>
+            Voici les outils et produits spécifiques utilisés par une entreprise de nettoyage pour obtenir les meilleurs résultats :
+          </p>
+          <h4>1. Aspirateurs industriels</h4>
+          <p>
+          Les aspirateurs industriels sont puissants et efficaces pour éliminer les débris, la poussière et les saletés des surfaces et des tapis.
+          </p>
+        <h4>2. Nettoyeurs à vapeur</h4>
+        <p>
+          Les nettoyeurs à vapeur sont très utiles pour nettoyer en profondeur les sols, les carreaux et les surfaces sans utiliser de produits chimiques agressifs.
+        </p>
+        <h4>3. Produits de nettoyage spécialisés</h4>
+        <p>
+          Des produits de nettoyage spécifiques sont utilisés en fonction des matériaux et des surfaces à nettoyer. Cela peut inclure des nettoyants pour vitres, des dégraissants, des produits pour enlever les résidus de peinture, etc.
+        </p>
+        <h4>4. Équipement de protection individuelle (EPI)</h4>
+        <p>
+          Lors du nettoyage de fin de chantier, il est important de porter des équipements de protection individuelle tels que des gants, des masques et des lunettes de protection pour assurer la sécurité du personnel et éviter tout contact avec des substances dangereuses.
+        </p>
+
+        <h3 >Combien coûte le nettoyage de fin de chantier ?</h3>
+        <hr id="min-hr">
+        <p>
+          Le coût du nettoyage de fin de chantier peut varier en fonction de plusieurs facteurs, tels que la taille de l’espace, la complexité des travaux, l’état initial de l’espace, et la région géographique.
+            Il est recommandé de demander des devis à notre entreprise de nettoyage pour obtenir une estimation précise.
+        </p>
+
+        <h3 >Conclusion</h3>
+        <hr id="min-hr">
+        <p>
+          Le nettoyage de fin de chantier est une étape essentielle pour assurer la propreté, la sécurité et la fonctionnalité
+            d’un espace après des travaux de construction ou de rénovation. Il implique plusieurs étapes clés, du retrait des 
+            débris au nettoyage des surfaces, en passant par la désinfection. Faire appel à des professionnels garantit un
+            nettoyage de qualité et offre de nombreux avantages. En choisissant une entreprise de nettoyage réputée et
+            en suivant les conseils appropriés, vous pouvez vous assurer d’obtenir un nettoyage de fin de chantier efficace et satisfaisant
+        </p>
+            
+          
+
+        </div>
+      </div>
+  </div>
+</div>    
+
+</div>
+
+
+<footer class="text-center text-lg-start text-white" id="footer">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!--Grid row-->
+    <div class="row my-4" id="rowfooter">
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+        <div class=" shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto">
+          <img class="logo2" src="image/logo2.png" height="60" alt="" />
+        </div>
+        <p class="text-start">There are many variations of passages of Lorem Ipsum available, There are many variations of passages.</p>
+       
+        <h5>Follow Us On:</h5>
+        <ul class="list-unstyled d-flex flex-row justify-content-start">
+          <li><a class="px-2" href="#!"><i class="fa-brands fa-facebook-f"></i></a></li>
+          <li><a class=" px-2" href="#!"><i class="fa-brands fa-twitter"></i></a></li>
+          <li><a class=" px-2" href="#!"><i class="fa-brands fa-google-plus-g"></i></a></li>
+          <li><a class=" px-2" href="#!"><i class="fa-brands fa-pinterest"></i></a></li>
+          <li><a class=" ps-2" href="#!"><i class="fa-brands fa-linkedin-in"></i></a></li>
+        </ul>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4">Services</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="service-nettoyage-bureaux.html" >>  Nettoyage du Bureaux</a></li>
+          <li class="mb-2"><a href="service-nettoyage-maisons.html" >>  Nettoyage des maisons</a></li>
+          <li class="mb-2"><a href="service-nettoyage-vitre.html" >>  Nettoyage de vitres </a></li>
+          <li class="mb-2"><a href="service-femme-de-menage.html">>  Femme de ménage</a></li>
+          <li class="mb-2"><a href="service-nettoyage-fin-chantier.html" >>  Nettoyage de fin de chantier </a></li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4">Quik Link</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="apropos-nettoyage-casablanca.html" >>  A propos</a></li>
+          <li class="mb-2"><a href="particuliers.html">>  Particuliers</a></li>
+          <li class="mb-2"><a href="professionnels.html" >>  Professionnels</a></li>
+          <li class="mb-2"><a href="blog.html">>  Blog</a> </li>
+          <li class="mb-2"><a href="contactez-nous.html" >>  Contactez-nous</a></li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4">Corporate Office</h5>
+        <ul class="list-unstyled">
+          <li> <p ><i class="fas fa-map-marker-alt pe-2"></i>59 Street, B4 Appartment, Australia</p> </li>
+          <li><p><i class="fas fa-phone pe-2"></i>+985-8844-000</p></li>
+          <li><p><i class="fas fa-envelope pe-2 mb-0"></i> info@cleanix.com</p></li>
+          <li><p><i class="fa-regular fa-calendar-minus"></i> +985-8844-000</p></li>
+        </ul>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row--> 
+  </div>
+  <!-- Grid container -->
+  <hr>
+
+ 
+  <div class="row d-flex ">
+
+    <!-- Grid column -->
+    <div class="col-md-7 text-md-start" >
+      <!-- Copyright -->
+      <div class="p-3"><p> © 2023 clenix. All Rights Reserved.</p></div>
+      <!-- Copyright -->
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="col-md-5   text-md-end">
+      <a  href="#">Site Map . </a>
+      <a  href="#">Term Of Service .</a>
+      <a href="#">Privicy Policy</a>
+    </div>
+    <!-- Grid column -->
+
+  </div>
+
+  
+</footer>
+
+</body>
+</html>

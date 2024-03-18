@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clenix</title>
+    <link rel="stylesheet" href="styletest.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>  
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light  fixed-top">
+  <div class="container-fluid">
+       <a class="navbar-brand" href="#"><img src="image/logo.png" alt="" id="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="navitem">
+
+          <li class="nav-item"> <a class="nav-link active" aria-current="page" href="accueil.html">ACCUEIL</a></li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" >
+              A PROPOS
+            </a>
+            
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="apropos-nettoyage-casablanca.html">Nettoyage Casablanca</a>
+            </ul>
+          </li>
+
+          <li class="nav-item"><a class="nav-link" href="particuliers.html">PARTICULIERS</a></li>
+          <li class="nav-item"><a class="nav-link" href="professionnels.html">PROFESSIONNELS</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown">
+              SERVICES
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="service-nettoyage-bureaux.html">Nettoyage du Bureaux</a></li>
+              <li><a class="dropdown-item" href="service-femme-de-menage.html">Femme de ménage</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-fin-chantier.html">Nettoyage de fin de chantier</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-apres-travaux.html">Nettoyage après travaux</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-locaux.html">Nettoyage de locaux</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-maisons.html">Nettoyage des maisons</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-appartement.html">Nettoyage appartement</a>
+              <li><a class="dropdown-item" href="service-nettoyage-villas.html">Nettoyage de villas</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-immeubles-residences.html">Nettoyage immeubles et résidences</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-hotels.html">Nettoyage hotels</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-restaurants.html">Nettoyage de restaurants</a>
+              <li><a class="dropdown-item" href="service-nettoyage-vitre.html">Nettoyage de vitres</a>
+              <li><a class="dropdown-item" href="service-nettoyage-industriel.html">Nettoyage indusriel</a>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown">
+            ACTIVITIES
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="activite-nettoyage-moquette.html">Nettoyage moquette</a></li>
+              <li><a class="dropdown-item" href="activite-nettoyage-parquets.html">Nettoyage de parquets</a></li>
+              <li><a class="dropdown-item" href="activite-poncage-cristallisation-marbres.html">Ponçage et cristalisation des marbres</a></li>
+              <li><a class="dropdown-item" href="activite-nettoyage-cristallisation-carrelages.html">Nettoyage et cristallisation carrelages</a></li>
+              <li><a class="dropdown-item" href="activite-nettoyage-cristallisation-mosaiques.html">Nettoyage et cristallisation de mosaiques</a></li>
+              <li><a class="dropdown-item" href="activite-poncage-cristallisation-sols.html">Ponçage et cristallisation sols</a></li>
+              <li><a class="dropdown-item" href="activite-poncage-parquets.html">Ponçage du parquets</a>
+              <li><a class="dropdown-item" href="activite-nettoyage-tapis.html">Nettoyage de tapis</a></li>
+              <li><a class="dropdown-item" href="activite-nettoyage-canapes.html">Nettoyage de canapés</a></li>
+              <li><a class="dropdown-item" href="activite-nettoyage-entretien-chaises.html">Nettoyage et l'entretien des chaises</a></li>
+              <li><a class="dropdown-item" href="activite-nettoyage-degressage-hottes.html">Nettoyage et dégraissage des hottes</a>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">BLOG</a></li>  
+          <li class="nav-item"><a class="nav-link" href="contactez-nous.html">CONTACTEZ-NOUS</a></li>
+        </ul>
+        <a class="btn btn-warning type my-2 my-sm-0" href="devis.html" id="btn">DEMENDEZ-DEVIS</a>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fuild" id="container-blog1"  >
+
+  <div class="container">
+
+  <div class="row"style="margin-top: 9%;">
+    <div class="col-md-8">
+      <div class="container" id="text-blog1">
+        <h4>Clean desk : la solution de bureau sain et optimisé</h4>
+        <div class="imgblog1" style="background-image: url(image/blog/blog2.jpg)"></div>  
+
+        <h3>Le clean desk : de quoi s’agit-il concrètement ?</h3>
+        <hr id="min-hr">
+          <div>
+            <p>
+              Le principe du clean desk est simple ! Arriver à mettre en place des stratégies visant à créer des espaces 
+              de travail à la fois minimalistes et épurés en se débarrassant de tout ce qui peut être considéré comme ‘’du
+               superflu’’. Il est recherché un certain ordre dans les bureaux où
+               l’on ne verra que le strict nécessaire et indispensable. Un bureau, un siège, un ordinateur, un clavier, etc.
+             </p>
+             <p>La solution permet ainsi d’offrir des conditions de travail améliorées aux collaborateurs. Un environnement sain et apaisant où tout est bien organisé améliore également la productivité des salariés.</p>
+          </div>             
+      </div>
+    </div>
+
+    <div class="col-md-4" >
+
+        <div class="racourci">
+            <div class="imgblog-cercl" style="background-image: url(image/blog/blog1.jpg);"></div>
+            <a class="card-title" href="blog1.html"><h6>Qu'est-ce que le nettoyage industriel ?</h6></a>
+        </div>
+        <hr id="blog-hr">
+
+        <div class="racourci">
+          <div class="imgblog-cercl" style="background-image: url(image/blog/blog2.jpg);"></div>
+          <a class="card-title" href="blog2.html"><h6>Clean desk : la solution de bureau sain et optimisé</h6></a>
+        </div>
+        <hr id="blog-hr">
+
+        <div class="racourci">
+          <div class="imgblog-cercl" style="background-image: url(image/blog/blog3.jpg);"></div>
+          <a class="card-title" href="blog3.html"><h6>Conseils pour laver les vitres comme un pro</h6></a>
+        </div>
+        <hr id="blog-hr">
+
+        <div class="racourci">
+          <div class="imgblog-cercl" style="background-image: url(image/blog/blog4.jpg);"></div>
+          <a class="card-title" href="blog4.html"><h6>Quels sont les métiers de propreté et de l'hygiène ?</h6></a>
+        </div>
+        <hr id="blog-hr">
+
+        <div class="racourci">
+          <div class="imgblog-cercl" style="background-image: url(image/blog/blog5.png);"></div>
+          <a class="card-title" href="blog5.html"><h6>Qu'est-ce que le nettoyage de fin de chantier ?</h6></a>
+        </div>
+        <hr id="blog-hr">
+
+        <div class="racourci">
+          <div class="imgblog-cercl" style="background-image: url(image/blog/blog6.jpg);"></div>
+          <a class="card-title" href="blog6.html"><h6>Conseils pour un nettoyage professionnel des sols</h6></a>
+        </div>
+        <hr id="blog-hr">
+
+    </div>     
+  </div>
+
+  
+  <div class="row" style="margin-top: 5%;">
+      <div class="col-md-6">
+        <div class="container">
+          <h3>Les actions de mise en œuvre de la politique du clean desk</h3>
+          <hr id="min-hr">
+          <p> 
+            Dans le souci de garantir la sécurité et la santé de votre personnel, notre entreprise de nettoyage sise à Paris s’occupe du :
+          </p>
+          <p>
+            Toute entreprise doit choisir un responsable clean desk qui aura pour mission d’instruire les collaborateurs autour des mesures
+              à adopter. Il doit encourager les équipes à garder leurs espaces de travail flexibles, bien rangés et propres.
+              Toutefois, avant que ces dernières ne mettent en 
+            pratique les stratégies du clean desk, l’entreprise doit créer des conditions optimales pour ces nouvelles habitudes
+          </p>  
+          <h4>Digitaliser le stockage et l’archivage</h4>
+          <p>
+            L’entreprise peut opter pour la digitalisation des documents. Moins il y aura de papiers dans l’espace de travail, plus l’environnement sera sobre et épuré. Les informations sensibles peuvent être enregistrées sur un ordinateur bien protégé. Dans le cas échéant, il peut être nécessaire de les trier et classer dans un espace de stockage digital et sécurisé. Cette méthode d’organisation 
+            est ce qu’on appelle « clean screen » (écran propre). Il s’agit d’une organisation plus harmonieuse des fichiers.
+          </p>
+          <h4>Optimiser le rangement des documents</h4>
+          <p>
+            Avec la solution du clean desk, plus rien ne traine sur les bureaux s’il n’est utile. Les documents confidentiels ne sont plus éparpillés un peu partout. 
+            Ils sont rangés dans des placards et casiers bien fermés. Plus de rangements ouverts dans les bureaux et couloirs.
+          </p>
+          <h4>Intégrer des solutions de dissimulation des câbles électriques</h4>
+          <p>
+            Il serait ingénieux de penser aux solutions de bureautique innovantes. Des systèmes de dissimulation des connectiques 
+            et des câbles peuvent être intégrés aux bureaux. 
+            Ceux-ci sont confondus à l’ensemble pour éviter de laisser trainer les composants électriques.</p>
+          <h4>Autres stratégies</h4>
+          <p>L’entreprise peut prévoir des box pour assurer le stockage des fournitures de bureau (stylos, agrafeuses, post-its, surligneurs…).</p>
+
+        </div>
+      </div>
+
+      <div class="col-md-6">
+          <div class="container">
+            <h3 >Quels sont les avantages à adopter le clean desk ?</h3>
+            <hr id="min-hr">
+            <p>Cette nouvelle solution d’organisation est indéniablement bénéfique tant pour les salariés que pour les entreprises et coworking elles-mêmes.</p>
+            <h4>Gain de temps et d’argent</h4>
+            <p>
+              Le gain de temps est un avantage majeur du clean desk. En effet, un employé peut banalement perdre un temps considérable à chercher des informations urgentes dans une pile de documents. 
+              La perte de temps a bien évidemment des répercussions sur la productivité de l’entreprise et sur ses finances.
+            </p>
+            <p>
+              La politique du clean desk est intéressante en ce qu’elle propose des solutions plus rapides à l’archivage et à la recherche
+                d’informations. Les documents étant stockés et sauvegardés sur un support numérique, il suffit de taper sa 
+                recherche et le fichier apparaît. Sur un plan financier, c’est une solution économique. Vous n’aurez plus à investir chaque année une fortune dans
+                du papier et de l’encre. Avec clean desk, vous faites un pas déterminant vers un environnement sain et durable.
+            </p>
+            <h4>Une sécurité beaucoup plus accrue</h4>
+            <p>L’archivage numérique est une mesure de protection bénéfique dans la mesure où toutes vos données confidentielles sont sauvegardées dans un espace sécurisé. Vous serez donc à l’abri de tout acte malveillant.</p>
+            <p>Aussi, chaque employé qui protège son ordinateur avec un mot de passe évite qu’une personne y ait accès sans le déverrouiller avec le mot de passe. Les post-its utilisés pour noter des informations à caractère sensible doivent être détruits au plus vite pour éviter qu’ils tombent dans des mains malveillantes.</p>
+            <h4>Bonne impression vis-à-vis des visiteurs</h4>
+            <p>Un bureau bien rangé et nettoyé renvoie une bonne image de ceux qui l’utilisent. Les visiteurs, les partenaires d’affaires et les clients vous feront encore plus confiance en constatant que vous êtes une entreprise sérieuse et professionnelle. Vous ferez donc bonne impression aux personnes étrangères à l’entreprise.</p>          
+          </div>
+      </div>
+  </div>
+  </div>     
+</div>
+
+
+<footer class="text-center text-lg-start text-white" id="footer">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!--Grid row-->
+    <div class="row my-4" id="rowfooter">
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+        <div class=" shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto">
+          <img class="logo2" src="image/logo2.png" height="60" alt="" />
+        </div>
+        <p class="text-start">There are many variations of passages of Lorem Ipsum available, There are many variations of passages.</p>
+       
+        <h5>Follow Us On:</h5>
+        <ul class="list-unstyled d-flex flex-row justify-content-start">
+          <li><a class="px-2" href="#!"><i class="fa-brands fa-facebook-f"></i></a></li>
+          <li><a class=" px-2" href="#!"><i class="fa-brands fa-twitter"></i></a></li>
+          <li><a class=" px-2" href="#!"><i class="fa-brands fa-google-plus-g"></i></a></li>
+          <li><a class=" px-2" href="#!"><i class="fa-brands fa-pinterest"></i></a></li>
+          <li><a class=" ps-2" href="#!"><i class="fa-brands fa-linkedin-in"></i></a></li>
+        </ul>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4">Services</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="service-nettoyage-bureaux.html" >>  Nettoyage du Bureaux</a></li>
+          <li class="mb-2"><a href="service-nettoyage-maisons.html" >>  Nettoyage des maisons</a></li>
+          <li class="mb-2"><a href="service-nettoyage-vitre.html" >>  Nettoyage de vitres </a></li>
+          <li class="mb-2"><a href="service-femme-de-menage.html">>  Femme de ménage</a></li>
+          <li class="mb-2"><a href="service-nettoyage-fin-chantier.html" >>  Nettoyage de fin de chantier </a></li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4">Quik Link</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="apropos-nettoyage-casablanca.html" >>  A propos</a></li>
+          <li class="mb-2"><a href="particuliers.html">>  Particuliers</a></li>
+          <li class="mb-2"><a href="professionnels.html" >>  Professionnels</a></li>
+          <li class="mb-2"><a href="blog.html">>  Blog</a> </li>
+          <li class="mb-2"><a href="contactez-nous.html" >>  Contactez-nous</a></li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4">Corporate Office</h5>
+        <ul class="list-unstyled">
+          <li> <p ><i class="fas fa-map-marker-alt pe-2"></i>59 Street, B4 Appartment, Australia</p> </li>
+          <li><p><i class="fas fa-phone pe-2"></i>+985-8844-000</p></li>
+          <li><p><i class="fas fa-envelope pe-2 mb-0"></i> info@cleanix.com</p></li>
+          <li><p><i class="fa-regular fa-calendar-minus"></i> +985-8844-000</p></li>
+        </ul>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row--> 
+  </div>
+  <!-- Grid container -->
+  <hr>
+
+ 
+  <div class="row d-flex ">
+
+    <!-- Grid column -->
+    <div class="col-md-7 text-md-start" >
+      <!-- Copyright -->
+      <div class="p-3"><p> © 2023 clenix. All Rights Reserved.</p></div>
+      <!-- Copyright -->
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="col-md-5   text-md-end">
+      <a  href="#">Site Map . </a>
+      <a  href="#">Term Of Service .</a>
+      <a href="#">Privicy Policy</a>
+    </div>
+    <!-- Grid column -->
+
+  </div>
+
+  
+</footer>
+
+</body>
+</html>

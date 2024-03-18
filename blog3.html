@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clenix</title>
+    <link rel="stylesheet" href="styletest.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>  
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light  fixed-top">
+  <div class="container-fluid">
+       <a class="navbar-brand" href="#"><img src="image/logo.png" alt="" id="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="navitem">
+
+          <li class="nav-item"> <a class="nav-link active" aria-current="page" href="accueil.html">ACCUEIL</a></li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" >
+              A PROPOS
+            </a>
+            
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="apropos-nettoyage-casablanca.html">Nettoyage Casablanca</a>
+            </ul>
+          </li>
+
+          <li class="nav-item"><a class="nav-link" href="particuliers.html">PARTICULIERS</a></li>
+          <li class="nav-item"><a class="nav-link" href="professionnels.html">PROFESSIONNELS</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown">
+              SERVICES
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="service-nettoyage-bureaux.html">Nettoyage du Bureaux</a></li>
+              <li><a class="dropdown-item" href="service-femme-de-menage.html">Femme de ménage</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-fin-chantier.html">Nettoyage de fin de chantier</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-apres-travaux.html">Nettoyage après travaux</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-locaux.html">Nettoyage de locaux</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-maisons.html">Nettoyage des maisons</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-appartement.html">Nettoyage appartement</a>
+              <li><a class="dropdown-item" href="service-nettoyage-villas.html">Nettoyage de villas</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-immeubles-residences.html">Nettoyage immeubles et résidences</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-hotels.html">Nettoyage hotels</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-restaurants.html">Nettoyage de restaurants</a>
+              <li><a class="dropdown-item" href="service-nettoyage-vitre.html">Nettoyage de vitres</a>
+              <li><a class="dropdown-item" href="service-nettoyage-industriel.html">Nettoyage indusriel</a>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown">
+            ACTIVITIES
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="activite-nettoyage-moquette.html">Nettoyage moquette</a></li>
+              <li><a class="dropdown-item" href="activite-nettoyage-parquets.html">Nettoyage de parquets</a></li>
+              <li><a class="dropdown-item" href="activite-poncage-cristallisation-marbres.html">Ponçage et cristalisation des marbres</a></li>
+              <li><a class="dropdown-item" href="activite-nettoyage-cristallisation-carrelages.html">Nettoyage et cristallisation carrelages</a></li>
+              <li><a class="dropdown-item" href="activite-nettoyage-cristallisation-mosaiques.html">Nettoyage et cristallisation de mosaiques</a></li>
+              <li><a class="dropdown-item" href="activite-poncage-cristallisation-sols.html">Ponçage et cristallisation sols</a></li>
+              <li><a class="dropdown-item" href="activite-poncage-parquets.html">Ponçage du parquets</a>
+              <li><a class="dropdown-item" href="activite-nettoyage-tapis.html">Nettoyage de tapis</a></li>
+              <li><a class="dropdown-item" href="activite-nettoyage-canapes.html">Nettoyage de canapés</a></li>
+              <li><a class="dropdown-item" href="activite-nettoyage-entretien-chaises.html">Nettoyage et l'entretien des chaises</a></li>
+              <li><a class="dropdown-item" href="activite-nettoyage-degressage-hottes.html">Nettoyage et dégraissage des hottes</a>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">BLOG</a></li>  
+          <li class="nav-item"><a class="nav-link" href="contactez-nous.html">CONTACTEZ-NOUS</a></li>
+        </ul>
+        <a class="btn btn-warning type my-2 my-sm-0" href="devis.html" id="btn">DEMENDEZ-DEVIS</a>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fuild" id="container-blog1"  >
+ <div class="container">
+
+    <div class="row"style="margin-top: 9%;">
+      <div class="col-md-8">
+        <div class="container" id="text-blog1">
+          <h4>Conseils pour laver les vitres comme un pro</h4>
+          <div class="imgblog1" style="background-image: url(image/blog/blog3.jpg);"></div>  
+          <h3>Investir dans du matériel de nettoyage de professionnel</h3>
+          <hr id="min-hr">
+            <div>
+              <p>
+                Si vous voulez des vitres propres, on vous suggère fortement d’investir dans du matériel de nettoyage professionnel. 
+                Oubliez l’essuie-tout qui en plus d’être peu efficace est non écologique. Ne 
+                vous inquiétez pas, l’investissement n’est pas important, vous pourrez nettoyer impeccablement vos vitres avec :
+              </p>
+              <p>
+                <ul>
+                  <li>Une raclette ou un mouilleur : ce sont certainement les outils préférés des laveurs de vitres. Ils vous offrent la possibilité de nettoyer facilement des vitres de grandes dimensions ;</li>
+                  <li>Plusieurs chiffons microfibres : ils sont très efficaces pour venir à bout des taches tenaces. Ils permettent également de sécher plus rapidement les vitres ;</li>
+                  <li>Du papier journal froissé : l’encre d’imprimerie est particulièrement efficace pour enlever les tâches. Ne forcez pas trop tout de même, vous risquez de rayer vos vitres. De plus, il ne faut pas utiliser n’importe quel papier journal, le résultat est mieux avec du papier de bonne qualité.</li>
+                </ul>
+              </p>
+            </div>             
+        </div>
+      </div>
+
+      <div class="col-md-4" >
+
+          <div class="racourci">
+              <div class="imgblog-cercl" style="background-image: url(image/blog/blog1.jpg);"></div>
+              <a class="card-title" href="blog1.html"><h6>Qu'est-ce que le nettoyage industriel ?</h6></a>
+          </div>
+          <hr id="blog-hr">
+
+          <div class="racourci">
+            <div class="imgblog-cercl" style="background-image: url(image/blog/blog2.jpg);"></div>
+            <a class="card-title" href="blog2.html"><h6>Clean desk : la solution de bureau sain et optimisé</h6></a>
+          </div>
+          <hr id="blog-hr">
+
+          <div class="racourci">
+            <div class="imgblog-cercl" style="background-image: url(image/blog/blog3.jpg);"></div>
+            <a class="card-title" href="blog3.html"><h6>Conseils pour laver les vitres comme un pro</h6></a>
+          </div>
+          <hr id="blog-hr">
+
+          <div class="racourci">
+            <div class="imgblog-cercl" style="background-image: url(image/blog/blog4.jpg);"></div>
+            <a class="card-title" href="blog4.html"><h6>Quels sont les métiers de propreté et de l'hygiène ?</h6></a>
+          </div>
+          <hr id="blog-hr">
+
+          <div class="racourci">
+            <div class="imgblog-cercl" style="background-image: url(image/blog/blog5.png);"></div>
+            <a class="card-title" href="blog5.html"><h6>Qu'est-ce que le nettoyage de fin de chantier ?</h6></a>
+          </div>
+          <hr id="blog-hr">
+
+          <div class="racourci">
+            <div class="imgblog-cercl" style="background-image: url(image/blog/blog6.jpg);"></div>
+            <a class="card-title" href="blog6.html"><h6>Conseils pour un nettoyage professionnel des sols</h6></a>
+          </div>
+          <hr id="blog-hr">
+
+      </div>     
+    </div>
+
+      <div class="row" style="margin-top: 5%;">
+          <div class="col-md-6">
+            <div class="container">
+              <h3>Vinaigre blanc : pour éliminer les traces de savon et de calcaire</h3>
+              <hr id="min-hr">
+                <p> 
+                  Le vinaigre blanc est très efficace pour nettoyer les vitres surtout lorsque ces dernières sont remplies de plaques de calcaire ou de traces de savon. Voici les étapes à suivre pour l’utiliser :
+                </p>
+                <p>
+                <ul>
+                  <li>Chauffer dans un premier temps 50 cl de vinaigre blanc ;</li>
+                  <li>Mettre la solution tiède dans un pulvérisateur ;</li>
+                  <li>Asperger généreusement la vitre à nettoyer. Si vous n’avez pas de pulvérisateur, appliquez la solution avec une éponge bien imbibée ;</li>
+                  <li>Laisser agir pendant une dizaine de minutes ;</li>
+                  <li>Frotter avec un chiffon puis rincer abondamment avec de l’eau.</li>
+                </ul>
+                </p>  
+
+                <h3>Bicarbonate de soude : pour venir à bout des taches tenaces</h3>
+                <hr id="min-hr">
+                <p>Le bicarbonate de soude peut être utilisé pour faire un nettoyant détachant fait maison très efficace et respectueux de l’environnement.
+                  Vous pouvez donc vous en servir pour nettoyer vos vitres, surtout si ces dernières sont très sales. Voici les étapes à suivre :
+                </p>
+                <p>
+                  <ul>
+                    <li>Diluer deux cuillères à soupe de bicarbonate de soude dans un litre d’eau ;</li>
+                    <li>Secouer bien le mélange ;</li>
+                    <li>Mettre la solution directement sur la vitre à nettoyer ;</li>
+                    <li>Frotter avec un chiffon doux quand c’est encore mouillé ;</li>
+                    <li>Répéter l’opération jusqu’à ce que les taches disparaissent.</li>
+                  </ul>
+                </p>
+                <p>Juste pour info, vous pouvez utiliser le bicarbonate de soude avec le vinaigre blanc pour obtenir un résultat encore plus impeccable.</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="container">
+              <h3 >Liquide vaisselle : la solution adoptée par de nombreux professionnels</h3>
+              <hr id="min-hr">
+              <p>
+                Beaucoup pensent que les laveurs de vitres utilisent un produit anti-trace particulier pour nettoyer efficacement une vitre. 
+                En fait, il n’en est rien ! Beaucoup d’entre eux utilisent un produit commun que l’on peut retrouver dans presque tous les ménages : le liquide vaisselle. Voici la recette miracle :
+              <p>
+                <ul>
+                  <li>Diluer du liquide vaisselle dans de l’eau chaude ;</li>
+                  <li>Ajouter un peu de vinaigre blanc pour optimiser du produit ;</li>
+                  <li>Frotter la vitre à traiter avec un chiffon bien imbibé de la solution ;</li>
+                  <li>Rincer abondamment avec de l’eau ;</li>
+                  <li>Enlever l’excédent d’eau avec une raclette.</li>
+                </ul>
+              </p>
+
+              <h3 >Les bons gestes à observer</h3>
+              <hr id="min-hr">
+              <p>
+                Pour obtenir des vitres éclatantes, vous devez les nettoyer en respectant plusieurs gestes :
+              <p>
+                <ul>
+                  <li>Enlever soigneusement les poussières surtout au niveau du cadre avant de mouiller la vitre ;</li>
+                  <li>Frotter du haut vers le bas pour enlever efficacement la poussière ;</li>
+                  <li>Lors du nettoyage proprement dit, le mieux est de commencer par l’extérieur (c’est généralement la partie la plus sale) ;</li>
+                  <li>Si vous lavez vos vitres en tant de soleil, on vous conseille d’accélérer le nettoyage pour éviter que le produit utilisé ne sèche rapidement et entraine des taches tenaces ;</li>
+                  <li>Pour éviter les rayures, il est mieux d’utiliser le racloir. Si vous n’en avez pas, un chiffon microfibre peut faire l’affaire. Si possible, ne jamais utiliser le mouchoir, l’essuie-tout et le papier toilette.</li>
+                </ul>
+              </p>
+              <p>Dans tous les cas, si vous voulez vous faciliter la vie, vous pouvez recourir au service d’une entreprise de nettoyage.</p>
+            </div>
+          </div>
+      </div>
+  </div>    
+
+</div>
+
+
+<footer class="text-center text-lg-start text-white" id="footer">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!--Grid row-->
+    <div class="row my-4" id="rowfooter">
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+        <div class=" shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto">
+          <img class="logo2" src="image/logo2.png" height="60" alt="" />
+        </div>
+        <p class="text-start">There are many variations of passages of Lorem Ipsum available, There are many variations of passages.</p>
+       
+        <h5>Follow Us On:</h5>
+        <ul class="list-unstyled d-flex flex-row justify-content-start">
+          <li><a class="px-2" href="#!"><i class="fa-brands fa-facebook-f"></i></a></li>
+          <li><a class=" px-2" href="#!"><i class="fa-brands fa-twitter"></i></a></li>
+          <li><a class=" px-2" href="#!"><i class="fa-brands fa-google-plus-g"></i></a></li>
+          <li><a class=" px-2" href="#!"><i class="fa-brands fa-pinterest"></i></a></li>
+          <li><a class=" ps-2" href="#!"><i class="fa-brands fa-linkedin-in"></i></a></li>
+        </ul>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4">Services</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="service-nettoyage-bureaux.html" >>  Nettoyage du Bureaux</a></li>
+          <li class="mb-2"><a href="service-nettoyage-maisons.html" >>  Nettoyage des maisons</a></li>
+          <li class="mb-2"><a href="service-nettoyage-vitre.html" >>  Nettoyage de vitres </a></li>
+          <li class="mb-2"><a href="service-femme-de-menage.html">>  Femme de ménage</a></li>
+          <li class="mb-2"><a href="service-nettoyage-fin-chantier.html" >>  Nettoyage de fin de chantier </a></li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4">Quik Link</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="apropos-nettoyage-casablanca.html" >>  A propos</a></li>
+          <li class="mb-2"><a href="particuliers.html">>  Particuliers</a></li>
+          <li class="mb-2"><a href="professionnels.html" >>  Professionnels</a></li>
+          <li class="mb-2"><a href="blog.html">>  Blog</a> </li>
+          <li class="mb-2"><a href="contactez-nous.html" >>  Contactez-nous</a></li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4">Corporate Office</h5>
+        <ul class="list-unstyled">
+          <li> <p ><i class="fas fa-map-marker-alt pe-2"></i>59 Street, B4 Appartment, Australia</p> </li>
+          <li><p><i class="fas fa-phone pe-2"></i>+985-8844-000</p></li>
+          <li><p><i class="fas fa-envelope pe-2 mb-0"></i> info@cleanix.com</p></li>
+          <li><p><i class="fa-regular fa-calendar-minus"></i> +985-8844-000</p></li>
+        </ul>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row--> 
+  </div>
+  <!-- Grid container -->
+  <hr>
+
+ 
+  <div class="row d-flex ">
+
+    <!-- Grid column -->
+    <div class="col-md-7 text-md-start" >
+      <!-- Copyright -->
+      <div class="p-3"><p> © 2023 clenix. All Rights Reserved.</p></div>
+      <!-- Copyright -->
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="col-md-5   text-md-end">
+      <a  href="#">Site Map . </a>
+      <a  href="#">Term Of Service .</a>
+      <a href="#">Privicy Policy</a>
+    </div>
+    <!-- Grid column -->
+
+  </div>
+
+  
+</footer>
+
+</body>
+</html>

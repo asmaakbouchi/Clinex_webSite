@@ -1,0 +1,303 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clenix</title>
+    <link rel="stylesheet" href="styletest.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>  
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light  fixed-top">
+  <div class="container-fluid">
+       <a class="navbar-brand" href="#"><img src="image/logo.png" alt="" id="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="navitem">
+
+          <li class="nav-item"> <a class="nav-link active" aria-current="page" href="accueil.html">ACCUEIL</a></li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" >
+              A PROPOS
+            </a>
+            
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="apropos-nettoyage-casablanca.html">Nettoyage Casablanca</a>
+            </ul>
+          </li>
+
+          <li class="nav-item"><a class="nav-link" href="particuliers">PARTICULIERS</a></li>
+          <li class="nav-item"><a class="nav-link" href="professionnels">PROFESSIONNELS</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown">
+              SERVICES
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="service-nettoyage-bureaux.html">Nettoyage du Bureaux</a></li>
+              <li><a class="dropdown-item" href="service-femme-de-menage.html">Femme de ménage</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-fin-chantier.html">Nettoyage de fin de chantier</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-apres-travaux.html">Nettoyage après travaux</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-locaux.html">Nettoyage de locaux</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-maisons.html">Nettoyage des maisons</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-appartement.html">Nettoyage appartement</a>
+              <li><a class="dropdown-item" href="service-nettoyage-villas.html">Nettoyage de villas</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-immeubles-residences.html">Nettoyage immeubles et résidences</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-hotels.html">Nettoyage hotels</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-restaurants.html">Nettoyage de restaurants</a>
+              <li><a class="dropdown-item" href="service-nettoyage-vitre.html">Nettoyage de vitres</a>
+              <li><a class="dropdown-item" href="service-nettoyage-industriel.html">Nettoyage indusriel</a>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown">
+            ACTIVITIES
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="activite-nettoyage-moquette.html">Nettoyage moquette</a></li>
+              <li><a class="dropdown-item" href="activite-nettoyage-parquets.html">Nettoyage de parquets</a></li>
+              <li><a class="dropdown-item" href="activite-poncage-cristallisation-marbres.html">Ponçage et cristalisation des marbres</a></li>
+              <li><a class="dropdown-item" href="activite-nettoyage-cristallisation-carrelages.html">Nettoyage et cristallisation carrelages</a></li>
+              <li><a class="dropdown-item" href="activite-nettoyage-cristallisation-mosaiques.html">Nettoyage et cristallisation de mosaiques</a></li>
+              <li><a class="dropdown-item" href="activite-poncage-cristallisation-sols.html">Ponçage et cristallisation sols</a></li>
+              <li><a class="dropdown-item" href="activite-poncage-parquets.html">Ponçage du parquets</a>
+              <li><a class="dropdown-item" href="activite-nettoyage-tapis.html">Nettoyage de tapis</a></li>
+              <li><a class="dropdown-item" href="activite-nettoyage-canapes.html">Nettoyage de canapés</a></li>
+              <li><a class="dropdown-item" href="activite-nettoyage-entretien-chaises.html">Nettoyage et l'entretien des chaises</a></li>
+              <li><a class="dropdown-item" href="activite-nettoyage-degressage-hottes.html">Nettoyage et dégraissage des hottes</a>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">BLOG</a></li>  
+          <li class="nav-item"><a class="nav-link" href="contactez-nous.html">CONTACTEZ-NOUS</a></li>
+        </ul>
+        <a class="btn btn-warning type my-2 my-sm-0" href="devis.html" id="btn">DEMENDEZ-DEVIS</a>
+    </div>
+  </div>
+</nav>
+
+<div class="containerfuild" id="headercontact" >   
+  <div class="text-center">
+    <h2>CONTACTEZ-NOUS </h2>
+  </div>
+</div>
+
+<div class="container-fuild" id="container-contact">
+  <div class="container">
+
+      <div class="row" style="margin-top: 5%;">
+      <div class="col-md-7">
+        <h5>DEVIS GRATUIT</h5>
+        <hr id="minhr2">
+
+        <p>Contactez nous pour benificier de notre expertice en comptabilité à casablanca.</p>
+        <fieldset>
+
+          <form>
+              <div class="form-group">
+                <label for="nom">Nom/Prénom <span>*</span></label>
+                <input type="text" class="form-control" placeholder="Nom" id="nom" name="nom" required>
+              </div>
+
+              <div class="form-group">
+                <label for="ville">Ville <span>*</span></label>
+                <select class="form-select" name="list-ville" id="ville" required>
+                  <option selected disabled>Choisir la ville</option>
+                  <option value="Agadir">Agadir</option>
+                  <option value="Beni Mellal">Beni Mellal</option>
+                  <option value="Casablanca">Casablanca</option>
+                  <option value="El Jadida">El Jadida</option>
+                  <option value="Fes">Fes</option>
+                  <option value="Kenitra">Kenitra</option>
+                  <option value="Khemissat">Khemissat</option>
+                  <option value="Khouribga">Khouribga</option>
+                  <option value="Laayoune">Laayoune</option>
+                  <option value="Marrakech">Marrakech</option>
+                  <option value="Meknes">Meknes</option>
+                  <option value="Mohammedia">Mohammedia</option>
+                  <option value="Nador">Nador</option>
+                  <option value="Oujda">Oujda</option>
+                  <option value="Rabat">Rabat</option>
+                  <option value="Safi">Safi</option>
+                  <option value="Sale">Sale</option>
+                  <option value="Tanger">Tanger</option>
+                  <option value="Taza">Taza</option>
+                  <option value="Temara">Temara</option>
+                  <option value="Tetouan">Tetouan</option>
+                </select>
+              </div>
+              
+              <div class="form-group">
+                <label for="tel">Tel <span>*</span></label>
+                <input class="form-control" type="number" placeholder="Tél" name="tel" id="tel" minlength="10" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="email">Email <span>*</span></label>
+              <input class="form-control" type="email" placeholder="Email" name="email" id="email" required>
+              </div>
+
+              <div class="form-group">
+                <label for="typelocal">Type de local <span>*</span></label>
+                <select class="form-select" name="typelocal" id="typelocal" required>
+                <option selected disabled>Choisir le type de local</option>
+                <option value="Particulier">Particulier</option>
+                <option value="Professionnel">Profesionnel</option>
+              </select>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Message <span>*</span></label>
+                <textarea class="form-control" name="message" id="message" rows="3" required>
+                </textarea>
+              </div>
+              
+              <button  type="submit"  class="btn btn-dark" id="btn">Envoyer</button>
+          </form>
+        </fieldset>
+      </div>
+      
+
+      <div  class="col-md-5">
+        <h5>NOS COORDONEES</h5>
+        <hr id="minhr2">
+
+          <ul >
+            <li>
+              <p ><i class="fas fa-map-marker-alt pe-2"></i><b>Adresse: </b>Casablanca,99 pierre parent, maroc</p>
+            </li>
+            <li>
+              <p><i class="fas fa-phone pe-2"></i><b>Téléphone: </b> +212 06 96 17 01 90</p>
+            </li>
+            <li>
+              <p><i class="fas fa-envelope pe-2 mb-0"></i><b>Email: </b>igca.experts.conseil@gmail.com</p>
+            </li>
+          </ul>
+      
+        <br>
+        <H5>HEUR DE TRAVAIL</h5>
+          <hr id="minhr2">
+          <ul >
+            <li><p><i class="fa-solid fa-clock"></i>&nbsp; 24/24h et 7/7j</p></li>
+          </ul>
+       <br>
+        <h5>ENTREPRISE DE DEVELOPPEMENT</h5>
+        <hr id="minhr2">
+        <ul >
+         <li> <i class="fa-solid fa-check"></i>&nbsp; <a href="#">Création sociétés à casablanca</a></li><br>
+         <li> <i class="fa-solid fa-check"></i>&nbsp; <a href="#">Domicialisation sociétés Casablanca</a> </li><br>
+         <li> <i class="fa-solid fa-check"></i>&nbsp; <a href="#">Tenue de comptabilité a casablanca</a></li><br>
+         <li> <i class="fa-solid fa-check"></i>&nbsp; <a href="#">Déclaration fiscal à casablanca</a></li><br>
+         <li> <i class="fa-solid fa-check"></i>&nbsp; <a href="#">Etablissement du bilan et liasse fiscal</a></li><br>
+          <li> <i class="fa-solid fa-check"></i>&nbsp; <a href="#">juridique</a></li><br>
+         <li> <i class="fa-solid fa-check"></i>&nbsp; <a href="#">Conseil juridique entreprise</a></li><br>
+        </ul>
+
+      </div>
+
+      </div>
+  </div>    
+</div>
+
+<footer class="text-center text-lg-start text-white" id="footer">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!--Grid row-->
+    <div class="row my-4" id="rowfooter">
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+        <div class=" shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto">
+          <img class="logo2" src="image/logo2.png" height="60" alt="" />
+        </div>
+        <p class="text-start">There are many variations of passages of Lorem Ipsum available, There are many variations of passages.</p>
+       
+        <h5>Follow Us On:</h5>
+        <ul class="list-unstyled d-flex flex-row justify-content-start">
+          <li><a class="px-2" href="#!"><i class="fa-brands fa-facebook-f"></i></a></li>
+          <li><a class=" px-2" href="#!"><i class="fa-brands fa-twitter"></i></a></li>
+          <li><a class=" px-2" href="#!"><i class="fa-brands fa-google-plus-g"></i></a></li>
+          <li><a class=" px-2" href="#!"><i class="fa-brands fa-pinterest"></i></a></li>
+          <li><a class=" ps-2" href="#!"><i class="fa-brands fa-linkedin-in"></i></a></li>
+        </ul>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4">Services</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="service-nettoyage-bureaux.html" >>  Nettoyage du Bureaux</a></li>
+          <li class="mb-2"><a href="service-nettoyage-maisons.html" >>  Nettoyage des maisons</a></li>
+          <li class="mb-2"><a href="service-nettoyage-vitre.html" >>  Nettoyage de vitres </a></li>
+          <li class="mb-2"><a href="service-femme-de-menage.html">>  Femme de ménage</a></li>
+          <li class="mb-2"><a href="service-nettoyage-fin-chantier.html" >>  Nettoyage de fin de chantier </a></li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4">Quik Link</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="apropos-nettoyage-casablanca.html" >>  A propos</a></li>
+          <li class="mb-2"><a href="particuliers.html">>  Particuliers</a></li>
+          <li class="mb-2"><a href="professionnels.html" >>  Professionnels</a></li>
+          <li class="mb-2"><a href="blog.html">>  Blog</a> </li>
+          <li class="mb-2"><a href="contactez-nous.html" >>  Contactez-nous</a></li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4">Corporate Office</h5>
+        <ul class="list-unstyled">
+          <li> <p ><i class="fas fa-map-marker-alt pe-2"></i>59 Street, B4 Appartment, Australia</p> </li>
+          <li><p><i class="fas fa-phone pe-2"></i>+985-8844-000</p></li>
+          <li><p><i class="fas fa-envelope pe-2 mb-0"></i> info@cleanix.com</p></li>
+          <li><p><i class="fa-regular fa-calendar-minus"></i> +985-8844-000</p></li>
+        </ul>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row--> 
+  </div>
+  <!-- Grid container -->
+  <hr>
+
+ 
+  <div class="row d-flex ">
+
+    <!-- Grid column -->
+    <div class="col-md-7 text-md-start" >
+      <!-- Copyright -->
+      <div class="p-3"><p> © 2023 clenix. All Rights Reserved.</p></div>
+      <!-- Copyright -->
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="col-md-5   text-md-end">
+      <a  href="#">Site Map . </a>
+      <a  href="#">Term Of Service .</a>
+      <a href="#">Privicy Policy</a>
+    </div>
+    <!-- Grid column -->
+
+  </div>
+
+  
+</footer>
+
+</body>
+</html>

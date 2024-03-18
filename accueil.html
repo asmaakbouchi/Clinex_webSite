@@ -1,0 +1,600 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clenix</title>
+    <link rel="stylesheet" href="styletest.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+</head>
+
+<script>
+$(document).ready(function(){ });
+</script>
+<body>
+  
+<nav class="navbar navbar-expand-lg navbar-light  fixed-top">
+  <div class="container-fluid">
+       <a class="navbar-brand" href="#"><img src="image/logo.png" alt="" id="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>     
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="navitem">
+
+          <li class="nav-item"> <a class="nav-link active" aria-current="page" href="accueil.html">ACCUEIL</a></li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              A PROPOS
+            </a>           
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="apropos-nettoyage-casablanca.html">Nettoyage Casablanca</a>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="particuliers.html">PARTICULIERS</a></li>
+          <li class="nav-item"><a class="nav-link" href="professionnels.html">PROFESSIONNELS</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" >
+              SERVICES
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="service-nettoyage-bureaux.html">Nettoyage du Bureaux</a></li>
+              <li><a class="dropdown-item" href="service-femme-de-menage.html">Femme de ménage</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-fin-chantier.html">Nettoyage de fin de chantier</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-apres-travaux.html">Nettoyage après travaux</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-locaux.html">Nettoyage de locaux</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-maisons.html">Nettoyage des maisons</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-appartement.html">Nettoyage appartement</a>
+              <li><a class="dropdown-item" href="service-nettoyage-villas.html">Nettoyage de villas</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-immeubles-residences.html">Nettoyage immeubles et résidences</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-hotels.html">Nettoyage hotels</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-restaurants.html">Nettoyage de restaurants</a>
+              <li><a class="dropdown-item" href="service-nettoyage-vitre.html">Nettoyage de vitres</a>
+              <li><a class="dropdown-item" href="service-nettoyage-industriel.html">Nettoyage indusriel</a>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown">
+              ACTIVITIES
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="activite-nettoyage-moquette.html">Nettoyage moquette</a></li>
+              <li><a class="dropdown-item" href="activite-nettoyage-parquets.html">Nettoyage de parquets</a></li>
+              <li><a class="dropdown-item" href="activite-poncage-cristallisation-marbres.html">Ponçage et cristalisation des marbres</a></li>
+              <li><a class="dropdown-item" href="activite-nettoyage-cristallisation-carrelages.html">Nettoyage et cristallisation carrelages</a></li>
+              <li><a class="dropdown-item" href="activite-nettoyage-cristallisation-mosaiques.html">Nettoyage et cristallisation de mosaiques</a></li>  
+              <li><a class="dropdown-item" href="activite-poncage-cristallisation-sols.html">Ponçage et cristallisation sols</a></li>
+              <li><a class="dropdown-item" href="activite-poncage-parquets.html">Ponçage du parquets</a>
+              <li><a class="dropdown-item" href="activite-nettoyage-tapis.html">Nettoyage de tapis</a></li>
+              <li><a class="dropdown-item" href="activite-nettoyage-canapes.html">Nettoyage de canapés</a></li>
+              <li><a class="dropdown-item" href="activite-nettoyage-entretien-chaises.html">Nettoyage et l'entretien des chaises</a></li>
+              <li><a class="dropdown-item" href="activite-nettoyage-degressage-hottes.html">Nettoyage et dégraissage des hottes</a>
+           </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">BLOG</a></li>  
+          <li class="nav-item"><a class="nav-link" href="contactez-nous.html">CONTACTEZ-NOUS</a></li>
+        </ul>
+        <a class="btn btn-warning type my-2 my-sm-0" href="devis.html" id="btn">DEMENDEZ-DEVIS</a>
+    </div>
+  </div>
+</nav>
+
+<div class="header" id="headerhome" >        
+  <div class="txtimg">
+    <h4>The Best Cleaning service Ever!</h4>
+     <h1>We Are Certified Coompany</h1><br>
+     <div>
+       <a id="btn" class="btn btn-warning" href="apropos-nettoyage-casablanca.html">Take Our Service > </a>             
+     </div>
+ </div>    
+</div>
+
+<div class="container" id="container1">
+   <div class="row" id="row1">
+      <div class="col-md-6 left" id="img" >
+          <img i src="image/about14.jpg" alt="">
+      </div>
+      <div class="col-md-6 right" >
+        <div id="txt">
+            <h1><b>Making Your House</b></h1> 
+          <h1>As Good As New</h1><br>
+          <p>Spa isa newsimply dummy text of the printing and type settingare industrLorem
+          Ipsum has been the industry's standard dummy text everty since the when an unknown centuries.</p>
+
+          <p>Spa isa newsimply dummy text of the printing and type settingare industrLorem
+              Ipsum has been the industry's standard dummy text everty since the when an unknown centuries.</p> 
+          <ul class="list-unstyled">
+            <li><i class="fa-solid fa-check"></i>&nbsp; Experienced Team</li>
+            <li><i class="fa-solid fa-check"></i>&nbsp; Keep the same cleaner for every visit</li>
+            <li><i class="fa-solid fa-check"></i>&nbsp; One-off, weekly or fortnightly visits</li>
+            <li><i class="fa-solid fa-check"></i>&nbsp; Book, manage & pay online</li>
+            <li><i class="fa-solid fa-check"></i>&nbsp; All in all service</li>
+          </ul> 
+          <br>
+          <div>
+                <a id="btn" class="btn btn-warning" href="apropos-nettoyage-casablanca.html">Book a Service ></a>  
+          </div>   
+        </div> 
+        </div>
+    </div>    
+</div>
+
+<div class="container-fuild" id="container10" >
+  <div class="container">
+  <div class="text3">
+    <div class="container-fuild text-center">
+        <h2>Notre services</h2>
+        <p>
+          Notre entreprise à un vrai savoir-faire dans le secteur du nettoyage à Casablanca pour cela nous vous offrons <br> des services de qualité et des prix attractifs        </p>
+    </div>  
+  </div>
+  </div>
+
+  <div class="container" id="container-card">  
+    <div class="row" style="margin-bottom: 4%;">
+        <div class="col-md-4">
+          <div class="card" >    
+          <div  class="img-card1" id="imgc1" ></div>
+          <a href="service-nettoyage-bureaux.html"><h4 class="card-title">Nettoyage du bureaux</h4></a> <br>        
+          <p class="text" >
+            On est des spécialistes de nettoyage de bureaux à casablanca notre intervention recouvre toutes les opérations de nettoyage du bureau [...]
+          </p>
+          </div>
+        </div>  
+
+        <div class="col-md-4">
+          <div class="card" >
+          <div class="img-card1" id="imgc2"></div>
+          <a href="service-femme-de-menage.html"><h4 class="card-title">Femme de ménage</h4></a> <br>
+          <p class="text">
+            Nos femmes de ménage à Casablanca Maroc prennent en charge aussi bien le ménage du domicile que le repassage du linge [...]
+          </p> 
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card" >
+          <div class="img-card1" id="imgc3"></div>
+          <a href="service-nettoyage-vitre.html"><h4 class="card-title">Nettoyage des vitres</h4></a>  <br>
+          <p class="text">
+            Notre société de nettoyage des vitres à Casablanca Maroc répond en toute sécurité à l'ensemble de vos demandes [...]
+          </p>
+          </div>  
+        </div>
+    </div>
+        
+    <div class="row" >
+      <div class="col-md-4" >
+          <div class="card" >    
+          <div class="img-card1" id="imgc4" ></div>
+          <a href="service-nettoyage-maisons.html"><h4 class="card-title">Nettoyage des maisons</h4></a><br>   
+          <p class="text">
+            Nous vous proposons le nettoyage de maisons et de toutes surfaces comme les moquettes, les tapis, les rideaux, le traitement de Parquet [...]  
+          </p>        
+        </div> 
+      </div> 
+
+      <div class="col-md-4">
+        <div class="card" >
+        <div class="img-card1" id="imgc5"></div>
+        <a href="service-nettoyage-fin-chantier.html"><h4 class="card-title">Nettoyage de fin de chantier</h4></a> <br>
+        <p class="text">
+          Nous sommes les spécialistes du nettoyage de fin de chantier et nous intervenons sur tous types de locaux à casablanca [...]        
+        </p> 
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card" >
+        <div class="img-card1" id="imgc6"></div>
+        <a href="service-nettoyage-immeubles-residences.html"><h4 class="card-title">Nettoyage d'immeubles et résidences</h4></a> <br> 
+        <p class="text">
+          Nos services de nettoyage à Casablanca Maroc sont multiples et peuvent couvrir tout type de bâtiments et immeubles [...]        
+        </div>  
+      </div>
+
+    </div>
+
+  </div> 
+
+</div>
+
+<div class="container-fuild " id="container3">
+   <div class="container text-center">
+      <h1>Get started with your free estimate</h1>
+      <br>
+      <a id="btn" href="#" class="btn btn-warning">Get an Estimate</a>
+   </div>
+</div>
+
+<div class="container" id="container4">
+  <div class="row">
+      <div class="col-md-6 left">
+          <div class="text2">
+               <h6>Why Choose Us</h6>
+              <h2>We Will Make Absolutely Any Place Clean, Neat & Tidy.</h2>
+              <p>Spa isa newsimply dummy text of the printing and type settingreat industrial lorem Ipsum has been the industry's standard dummy text everty since the when an unknown centurie.</p>    
+              <ul>
+                  <i class="fa-regular fa-circle-check"></i><span> Customer Focused Reviews</span>  
+                  <p>Aorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                  <i class="fa-regular fa-circle-check"></i><span> We Are Committed</span>
+                 <p>Aorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                 <i class="fa-regular fa-circle-check"></i><span> Regular & Monthly Cleaning</span>
+                  <p>Aorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore.</p>
+              </ul>
+          </div>
+      </div>
+
+      <div class="col-md-6 right" id="box-img">
+          <div class="cercl-img1"></div>
+          <div class="cercl-img2"></div>
+          <div class="cercl-img3"></div>
+      </div>    
+  </div>
+</div>
+
+<div class="container-fuild" id="container5">
+  <div class="container">
+     <div class="text3">
+          <div class="container-fuild text-center">
+              <h2>Our Working Process</h2>
+              <p>Perspiciatis unde omnis iste natus error sit voluptatem accusantium dol oremque <br> laudantium, totam remeaque ipsa.</p>
+            </div>  
+    </div>
+  </div>
+ 
+   <div class="container" id="container5-5">
+    <div class="row" >
+    <div class="col-md-4">
+      <div class="card"  id="card2">
+          <div class="card-body">
+          <i class="fa-solid fa-calendar-week" id="icon1"></i> <br>
+          <h4 class="card-title"></h4>  
+          <a class="card-title"><h4 >Book Online Form</h4></a>
+          <p class="card-text">
+              Ahen an unknown printer took a galley of type and scrambled
+              it to make a type specimen book areIt hasear survived</p>
+          </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card"  id="card2">
+          <div class="card-body">
+          <i class="fa-regular fa-envelope" id="icon1"></i><br><br>
+          <a class="card-title"><h4>Get Confirmation</h4></a>
+          <p class="card-text">
+              Ahen an unknown printer took a galley of type and scrambledit to make a type specimen book areIt hasear survived</p>
+          </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card"  id="card2">
+          <div class="card-body">
+          <i class="fa-regular fa-face-smile" id="icon1"></i> <br><br>
+          <a class="card-title"><h4 >Let's Enjoy</h4></a>
+          <p class="card-text">
+              Ahen an unknown printer took a galley of type and scrambled
+              it to make a type specimen book areIt hasear survived</p>
+          </div>
+      </div>
+    </div>
+      
+      
+      
+
+  </div>
+  </div>
+  
+</div>
+
+<div class="container-fuild" id="container6">
+
+  <div class="container">
+    <div class="row" id="row2">
+      <div class="col-md-6 left" >
+          <h1>Our Recent Projects.</h1>
+      </div>
+      <div class="col-md-6 right" id="txt2">
+          <p>Perspiciatis unde omnis iste natus error sit voluptatem accusantium dol oremque laudantium, totam remeaque ipsa.</p>
+      </div>    
+  </div>
+  </div>
+
+  <div  id="containerphoto">
+      <div class="row" id="row3">
+        <div class="col-md-3" id="col1">
+            <div class="text-center">
+              <h3>House Cleaning </h3>
+              <h6>Home</h6>
+            </div>
+            <div>
+              <a id="btn" class="btn btn-warning">View Project ></a>  
+            </div>   
+        </div>
+
+         <div class="col-md-3" id="col3">
+          <div class="text-center">
+              <h3>Office Cleaning </h3>
+              <h6>Home,Office</h6>
+            </div>
+            <div>
+              <a id="btn" class="btn btn-warning">View Project></a>  
+            </div>   
+        </div>
+
+        <div class="col-md-3" id="col2">
+          <div class="text-center">
+            <h3>Badroom Cleaning </h3>
+            <h6>Home,Office</h6>
+          </div>
+          <div>
+            <a id="btn" class="btn btn-warning">View Project ></a>  
+          </div>   
+        </div>
+
+       
+
+        <div class="col-md-3" id="col4">
+          <div class="text-center">
+              <h3>Floor Cleaning </h3>
+              <h6>Home</h6>
+            </div>
+            <div>
+              <a id="btn" class="btn btn-warning">View Project ></a>  
+            </div>   
+        </div>
+      </div>
+  </div>
+
+  
+</div>
+
+<div class="container-fuild" id="container7">
+
+  <div class="container">
+    <div class="text3">
+    <div class="container-fuild text-center">
+        <h2>Our Working Experts</h2>
+        <p>Perspiciatis unde omnis iste natus error sit voluptatem accusantium dol oremque <br> laudantium, totam remeaque ipsa.</p>
+      </div>  
+    </div>
+  </div>
+
+  <div class="container" id="row4">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="img-of" id="img-of1">
+            </div>
+            <h4 class="card-title">Richard Pawel</h4>
+            <p class="card-text" style="margin-top: -2%;">Office Clean</p>
+            <div  id="icone2">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+            </div>
+        </div>
+        <div class="col-md-4">
+          <div class="img-of" id="img-of2">
+          </div>
+          <h4 class="card-title">Ashley Riordan</h4>
+          <p class="card-text" style="margin-top: -2%;">Office Clean</p>
+          <div  id="icone2">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+          </div>
+        </div>
+        <div class="col-md-4">
+        <div class="img-of" id="img-of3">
+        </div>
+        <h4 class="card-title">Clemens Steiner</h4>
+        <p class="card-text" style="margin-top: -2%;">Office Clean</p>
+        <div  id="icone2">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+        </div>
+        </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="container-fuild" id="container8">
+  <div class="container">
+  <h1 class="text-center" style="color:white;" >What's client Say <br>About US</h1>
+  </div> 
+  
+  <div class="container">
+    <div class="row" >
+        <div class="col-md-6">               
+            <div class="card"  id="card3">
+              <div class="card-body">
+               <div class="img-card"  id="img-card1"></div>
+                <div class="icon-star"> 
+              
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star" id="star-of"></i>
+                <i class="fa-solid fa-star" id="star-of"></i>
+                </div>
+                  <p class="card-text">
+                    Wimply dummy textof the priting and tupe setting industryrem lpsum has been the industrarem isum has been the indestry's standard ather ather 
+                    dummey text ever since</p>
+                <a class="card-title"><h4>Mike Hussy</h4></a>
+                  <p style="text-align: center;">Director</p>
+              </div>
+            </div>
+        </div>
+        <div class="col-md-6">               
+          <div class="card"  id="card3">
+            <div class="card-body">
+             <div class="img-card" id="img-card2"></div>
+              <div class="icon-star"> 
+            
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star" id="star-of"></i>
+              <i class="fa-solid fa-star" id="star-of"></i>
+              </div>
+                <p class="card-text">
+                  Wimply dummy textof the priting and tupe setting industryrem lpsum has been the industrarem isum has been the indestry's standard ather ather 
+                  dummey text ever since</p>
+              <a class="card-title"><h4>Robby jhon</h4></a>
+                <p style="text-align: center;">CEO,RT</p>
+            </div>
+          </div>
+        </div>
+
+
+    </div>  
+
+  </div>  
+</div>
+
+<div class="container-fuild" id="container9">
+    <div class="container">
+        <div class="row" id="row2">
+            <div class="col-md-6 left" >
+                <h1>We Provide Our Best Cleaning Services for You.</h1>
+            </div>
+            <div class="col-md-6 right" id="txt2">
+                <p>Perspiciatis unde omnis iste natus error sit voluptatem accusantium dol oremque laudantium,
+                totam remeaque ipsaPerspiciatis unde omnis iste natus error sit voluptatem accusanti umoremque.</p>
+            </div>    
+        </div>
+
+
+        <div class="row" id="row-text">
+            <p id="txt2">
+              Perspiciatis unde omnis iste natus error sit voluptatem accusantium dol oremque laudantium,
+                totam remeaque ipsaPerspiciatis unde omnis iste natus error sit voluptatem accusanti umoremque.
+                Perspiciatis unde omnis iste natus error sit voluptatem accusantium dol oremque laudantium,
+                totam remeaque ipsaPerspiciatis unde omnis iste natus error sit voluptatem accusanti umoremque.
+                Perspiciatis unde omnis iste natus error sit voluptatem accusantium dol oremque laudantium,
+                totam remeaque ipsaPerspiciatis unde omnis iste natus error sit voluptatem accusanti umoremque.
+                Perspiciatis unde omnis iste natus error sit voluptatem accusantium dol oremque laudantium,
+                totam remeaque ipsaPerspiciatis unde omnis iste natus error sit voluptatem accusanti umoremque.<br><br>
+                Perspiciatis unde omnis iste natus error sit voluptatem accusantium dol oremque laudantium,
+                totam remeaque ipsaPerspiciatis unde omnis iste natus error sit voluptatem accusanti umoremque.
+                Perspiciatis unde omnis iste natus error sit voluptatem accusantium dol oremque laudantium,
+                totam remeaque ipsaPerspiciatis unde omnis iste natus error sit voluptatem accusanti umoremque.
+                Perspiciatis unde omnis iste natus error sit voluptatem accusantium dol oremque laudantium,
+                totam remeaque ipsaPerspiciatis unde omnis iste natus error sit voluptatem accusanti umoremque.
+            </p>
+        </div>        
+    </div>
+         
+          
+        
+        
+</div>
+
+
+
+<footer class="text-center text-lg-start text-white" id="footer">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!--Grid row-->
+    <div class="row my-4" id="rowfooter">
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+        <div class=" shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto">
+          <img class="logo2" src="image/logo2.png" height="60" alt="" />
+        </div>
+        <p class="text-start">There are many variations of passages of Lorem Ipsum available, There are many variations of passages.</p>
+       
+        <h5>Follow Us On:</h5>
+        <ul class="list-unstyled d-flex flex-row justify-content-start">
+          <li><a class="px-2" href="#!"><i class="fa-brands fa-facebook-f"></i></a></li>
+          <li><a class=" px-2" href="#!"><i class="fa-brands fa-twitter"></i></a></li>
+          <li><a class=" px-2" href="#!"><i class="fa-brands fa-google-plus-g"></i></a></li>
+          <li><a class=" px-2" href="#!"><i class="fa-brands fa-pinterest"></i></a></li>
+          <li><a class=" ps-2" href="#!"><i class="fa-brands fa-linkedin-in"></i></a></li>
+        </ul>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4">Services</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="service-nettoyage-bureaux.html" >>  Nettoyage du Bureaux</a></li>
+          <li class="mb-2"><a href="service-nettoyage-maisons.html" >>  Nettoyage des maisons</a></li>
+          <li class="mb-2"><a href="service-nettoyage-vitre.html" >>  Nettoyage de vitres </a></li>
+          <li class="mb-2"><a href="service-femme-de-menage.html">>  Femme de ménage</a></li>
+          <li class="mb-2"><a href="service-nettoyage-fin-chantier.html" >>  Nettoyage de fin de chantier </a></li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4">Quik Link</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="apropos-nettoyage-casablanca.html" >>  A propos</a></li>
+          <li class="mb-2"><a href="particuliers.html">>  Particuliers</a></li>
+          <li class="mb-2"><a href="professionnels.html" >>  Professionnels</a></li>
+          <li class="mb-2"><a href="blog.html">>  Blog</a> </li>
+          <li class="mb-2"><a href="contactez-nous.html" >>  Contactez-nous</a></li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4">Corporate Office</h5>
+        <ul class="list-unstyled">
+          <li> <p ><i class="fas fa-map-marker-alt pe-2"></i>59 Street, B4 Appartment, Australia</p> </li>
+          <li><p><i class="fas fa-phone pe-2"></i>+985-8844-000</p></li>
+          <li><p><i class="fas fa-envelope pe-2 mb-0"></i> info@cleanix.com</p></li>
+          <li><p><i class="fa-regular fa-calendar-minus"></i> +985-8844-000</p></li>
+        </ul>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row--> 
+  </div>
+  <!-- Grid container -->
+  <hr>
+
+ 
+  <div class="row d-flex ">
+
+    <!-- Grid column -->
+    <div class="col-md-7 text-md-start" >
+      <!-- Copyright -->
+      <div class="p-3"><p> © 2023 clenix. All Rights Reserved.</p></div>
+      <!-- Copyright -->
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="col-md-5   text-md-end">
+      <a  href="#">Site Map . </a>
+      <a  href="#">Term Of Service .</a>
+      <a href="#">Privicy Policy</a>
+    </div>
+    <!-- Grid column -->
+
+  </div>
+
+  
+</footer>
+  
+</body>
+</html>

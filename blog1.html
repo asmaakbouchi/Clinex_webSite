@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clenix</title>
+    <link rel="stylesheet" href="styletest.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>  
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light  fixed-top">
+  <div class="container-fluid">
+       <a class="navbar-brand" href="#"><img src="image/logo.png" alt="" id="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="navitem">
+
+          <li class="nav-item"> <a class="nav-link active" aria-current="page" href="accueil.html">ACCUEIL</a></li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" >
+              A PROPOS
+            </a>
+            
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="apropos-nettoyage-casablanca.html">Nettoyage Casablanca</a>
+            </ul>
+          </li>
+
+          <li class="nav-item"><a class="nav-link" href="particuliers.html">PARTICULIERS</a></li>
+          <li class="nav-item"><a class="nav-link" href="professionnels.html">PROFESSIONNELS</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown">
+              SERVICES
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="service-nettoyage-bureaux.html">Nettoyage du Bureaux</a></li>
+              <li><a class="dropdown-item" href="service-femme-de-menage.html">Femme de ménage</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-fin-chantier.html">Nettoyage de fin de chantier</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-apres-travaux.html">Nettoyage après travaux</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-locaux.html">Nettoyage de locaux</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-maisons.html">Nettoyage des maisons</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-appartement.html">Nettoyage appartement</a>
+              <li><a class="dropdown-item" href="service-nettoyage-villas.html">Nettoyage de villas</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-immeubles-residences.html">Nettoyage immeubles et résidences</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-hotels.html">Nettoyage hotels</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-restaurants.html">Nettoyage de restaurants</a>
+              <li><a class="dropdown-item" href="service-nettoyage-vitre.html">Nettoyage de vitres</a>
+              <li><a class="dropdown-item" href="service-nettoyage-industriel.html">Nettoyage indusriel</a>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown">
+            ACTIVITIES
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="activite-nettoyage-moquette.html">Nettoyage moquette</a></li>
+              <li><a class="dropdown-item" href="activite-nettoyage-parquets.html">Nettoyage de parquets</a></li>
+              <li><a class="dropdown-item" href="activite-poncage-cristallisation-marbres.html">Ponçage et cristalisation des marbres</a></li>
+              <li><a class="dropdown-item" href="activite-nettoyage-cristallisation-carrelages.html">Nettoyage et cristallisation carrelages</a></li>
+              <li><a class="dropdown-item" href="activite-nettoyage-cristallisation-mosaiques.html">Nettoyage et cristallisation de mosaiques</a></li>
+              <li><a class="dropdown-item" href="activite-poncage-cristallisation-sols.html">Ponçage et cristallisation sols</a></li>
+              <li><a class="dropdown-item" href="activite-poncage-parquets.html">Ponçage du parquets</a>
+              <li><a class="dropdown-item" href="activite-nettoyage-tapis.html">Nettoyage de tapis</a></li>
+              <li><a class="dropdown-item" href="activite-nettoyage-canapes.html">Nettoyage de canapés</a></li>
+              <li><a class="dropdown-item" href="activite-nettoyage-entretien-chaises.html">Nettoyage et l'entretien des chaises</a></li>
+              <li><a class="dropdown-item" href="activite-nettoyage-degressage-hottes.html">Nettoyage et dégraissage des hottes</a>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">BLOG</a></li>  
+          <li class="nav-item"><a class="nav-link" href="contactez-nous.html">CONTACTEZ-NOUS</a></li>
+        </ul>
+        <a class="btn btn-warning type my-2 my-sm-0" href="devis.html" id="btn">DEMENDEZ-DEVIS</a>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fuild" id="container-blog1"  >
+
+ 
+  <div class="container">
+
+    <div class="row" style="margin-top: 9%;">
+      <div class="col-md-8">
+        <div class="container" id="text-blog1">
+          <h4>Qu'est-ce que le nettoyage industriel ?</h4>
+          <div class="imgblog1" style="background-image: url(image/blog/blog1.jpg);"></div>  
+
+          <h3>Le nettoyage industriel : de quoi s’agit-il concrètement ?</h3>
+          <hr id="min-hr">
+            <div>
+              <p>
+                Un spécialiste du nettoyage industriel doit être en mesure d’offrir aux entreprises qui font recours à lui des prestations ponctuelles ou sur 
+                le long terme en nettoyage industriel. Ces services visent à aider ses clients à maintenir propre et impeccable leur milieu de travail 
+                en assurant l’entretien des locaux. Dans l’optique de permettre à leur personnel de concentrer leur énergie et leur 
+                temps sur des actions stratégiques à valeur ajoutée, les entreprises préfèrent externaliser ce poste chronophage.
+              </p>
+            </div>             
+        </div>
+      </div>
+
+      <div class="col-md-4" >
+
+          <div class="racourci">
+              <div class="imgblog-cercl" style="background-image: url(image/blog/blog1.jpg);"></div>
+              <a class="card-title" href="blog1.html"><h6>Qu'est-ce que le nettoyage industriel ?</h6></a>
+          </div>
+          <hr id="blog-hr">
+
+          <div class="racourci">
+            <div class="imgblog-cercl" style="background-image: url(image/blog/blog2.jpg);"></div>
+            <a class="card-title" href="blog2.html"><h6>Clean desk : la solution de bureau sain et optimisé</h6></a>
+          </div>
+          <hr id="blog-hr">
+
+          <div class="racourci">
+            <div class="imgblog-cercl" style="background-image: url(image/blog/blog3.jpg);"></div>
+            <a class="card-title" href="blog3.html"><h6>Conseils pour laver les vitres comme un pro</h6></a>
+          </div>
+          <hr id="blog-hr">
+
+          <div class="racourci">
+            <div class="imgblog-cercl" style="background-image: url(image/blog/blog4.jpg);"></div>
+            <a class="card-title" href="blog4.html"><h6>Quels sont les métiers de propreté et de l'hygiène ?</h6></a>
+          </div>
+          <hr id="blog-hr">
+
+          <div class="racourci">
+            <div class="imgblog-cercl" style="background-image: url(image/blog/blog5.png);"></div>
+            <a class="card-title" href="blog5.html"><h6>Qu'est-ce que le nettoyage de fin de chantier ?</h6></a>
+          </div>
+          <hr id="blog-hr">
+
+          <div class="racourci">
+            <div class="imgblog-cercl" style="background-image: url(image/blog/blog6.jpg);"></div>
+            <a class="card-title" href="blog6.html"><h6>Conseils pour un nettoyage professionnel des sols</h6></a>
+          </div>
+          <hr id="blog-hr">
+
+      </div>     
+    </div>
+  
+
+    <div class="row" style="margin-top: 5%;">
+        <div class="col-md-6">
+          <div class="container">
+            <h3>Quels sont les types de prestations de nettoyage industriel et le matériel adéquat ?</h3>
+            <hr id="min-hr">
+              <p> 
+              Dans le souci de garantir la sécurité et la santé de votre personnel, notre entreprise de nettoyage sise à Paris s’occupe du :
+              </p>
+              <p>
+              <ul>
+                <li> Lavage des sols grâce à notre matériel industriel (autolaveuse, monobrosse, balayeuse mécanisée, aspirateur industriel…) ;</li>
+                <li> L’entretien des vitres avec les produits détergents adaptés aux surfaces vitrées et les outils de travail tels que l’éponge, la raclette, la spatule, les mouilleurs et les perches ;</li>
+                <li> Nettoyage industriel des murs et façades en utilisant un nettoyeur à vapeur, un nettoyeur à haute pression, des brosses, une échelle pour nettoyer les surfaces en hauteur ou un échafaudage.</li>
+              </ul>
+              </p>  
+              <p>Nous mettons également à la disposition de nos clients notre expertise dans des domaines plus complexes tels que :</p>          
+              <p>
+                <ul>
+                  <li> Décrassage des systèmes de ventilation ;</li>
+                  <li>Entretien des conduits de ventilation ;</li>
+                  <li>Dégraissage d’appareils industriels ;</li>
+                  <li>Entretien des cages d’ascenseurs ;</li>
+                  <li>Nettoyage externe (ramassage d’ordures, recyclage de résidus issus d’activité industrielle…) ;</li>
+                </ul>
+              </p>
+              <p>
+                Par ailleurs, nos agents de nettoyage industriel localisés en Casablanca assurent le nettoyage industriel 
+                de grandes surfaces telles que les 
+                chantiers en finition, les endroits saccagés par un sinistré, les bureaux professionnels après un déménagement…
+              </p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="container">
+              <h3 >Quelles sont les différentes méthodes pour le nettoyage de sites industriels ?</h3>
+              <hr id="min-hr">
+              <p>De l’entretien le plus classique au plus complexe, nous utilisons principalement 6 techniques de nettoyage :</p>
+              <p>
+                <ul>
+                  <li>Nettoyage vapeur sèche : c’est le nettoyage industriel qui propulse de 
+                    la vapeur d’eau sous l’effet d’une forte température sur les surfaces encrassées pour les désinfecter ;</li>
+                    <li>Bionettoyage : il combine à lui seul nettoyage, rinçage et désinfection. Il permet d’endiguer la contamination biologique des sols, murs et engins ;</li>
+                    <li>Nettoyage cryogénique : idéale pour l’entretien de matériel de production et de transformation, des hottes aspirantes… c’est une technique non abrasive utilisant de la glace sèche ;</li>
+                    <li>Nettoyage par ultrasons : il assure le nettoyage des taches tenaces incrustées dans les salles d’opération et l’appareillage médical. Ce nettoyage industriel consiste à propulser de microjets sur les surfaces pour par exemple décoller le ciment répandu un peu partout sur les chantiers finis ;</li>
+                    <li>Hydrodécapage : il consiste à assainir les revêtements de sols et de murs, et à les débarrasser des salissures et détritus en y répandant des jets d’eau avec une forte pression. Il convient aux revêtements en béton ou en granit. Le rendu est parfait et sans aucune altération.</li>
+                  </ul>
+              </p>
+              <p>
+                Faire appel à une entreprise de nettoyage de locaux industriels et professionnels à Paris vous permet de 
+                préserver la résistance et l’esthétique de vos locaux industriels. 
+                Le nettoyage industriel constitue in fine le meilleur moyen pour assurer la santé de votre personnel.
+              </p>
+            </div>
+        </div>
+    </div>
+  </div>     
+</div>
+
+
+<footer class="text-center text-lg-start text-white" id="footer">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!--Grid row-->
+    <div class="row my-4" id="rowfooter">
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+        <div class=" shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto">
+          <img class="logo2" src="image/logo2.png" height="60" alt="" />
+        </div>
+        <p class="text-start">There are many variations of passages of Lorem Ipsum available, There are many variations of passages.</p>
+       
+        <h5>Follow Us On:</h5>
+        <ul class="list-unstyled d-flex flex-row justify-content-start">
+          <li><a class="px-2" href="#!"><i class="fa-brands fa-facebook-f"></i></a></li>
+          <li><a class=" px-2" href="#!"><i class="fa-brands fa-twitter"></i></a></li>
+          <li><a class=" px-2" href="#!"><i class="fa-brands fa-google-plus-g"></i></a></li>
+          <li><a class=" px-2" href="#!"><i class="fa-brands fa-pinterest"></i></a></li>
+          <li><a class=" ps-2" href="#!"><i class="fa-brands fa-linkedin-in"></i></a></li>
+        </ul>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4">Services</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="service-nettoyage-bureaux.html" >>  Nettoyage du Bureaux</a></li>
+          <li class="mb-2"><a href="service-nettoyage-maisons.html" >>  Nettoyage des maisons</a></li>
+          <li class="mb-2"><a href="service-nettoyage-vitre.html" >>  Nettoyage de vitres </a></li>
+          <li class="mb-2"><a href="service-femme-de-menage.html">>  Femme de ménage</a></li>
+          <li class="mb-2"><a href="service-nettoyage-fin-chantier.html" >>  Nettoyage de fin de chantier </a></li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4">Quik Link</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="apropos-nettoyage-casablanca.html" >>  A propos</a></li>
+          <li class="mb-2"><a href="particuliers.html">>  Particuliers</a></li>
+          <li class="mb-2"><a href="professionnels.html" >>  Professionnels</a></li>
+          <li class="mb-2"><a href="blog.html">>  Blog</a> </li>
+          <li class="mb-2"><a href="contactez-nous.html" >>  Contactez-nous</a></li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4">Corporate Office</h5>
+        <ul class="list-unstyled">
+          <li> <p ><i class="fas fa-map-marker-alt pe-2"></i>59 Street, B4 Appartment, Australia</p> </li>
+          <li><p><i class="fas fa-phone pe-2"></i>+985-8844-000</p></li>
+          <li><p><i class="fas fa-envelope pe-2 mb-0"></i> info@cleanix.com</p></li>
+          <li><p><i class="fa-regular fa-calendar-minus"></i> +985-8844-000</p></li>
+        </ul>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row--> 
+  </div>
+  <!-- Grid container -->
+  <hr>
+
+ 
+  <div class="row d-flex ">
+
+    <!-- Grid column -->
+    <div class="col-md-7 text-md-start" >
+      <!-- Copyright -->
+      <div class="p-3"><p> © 2023 clenix. All Rights Reserved.</p></div>
+      <!-- Copyright -->
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="col-md-5   text-md-end">
+      <a  href="#">Site Map . </a>
+      <a  href="#">Term Of Service .</a>
+      <a href="#">Privicy Policy</a>
+    </div>
+    <!-- Grid column -->
+
+  </div>
+
+  
+</footer>
+
+</body>
+</html>

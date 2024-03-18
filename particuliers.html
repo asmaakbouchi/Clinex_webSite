@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clenix</title>
+    <link rel="stylesheet" href="styletest.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>  
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light  fixed-top">
+  <div class="container-fluid">
+       <a class="navbar-brand" href="#"><img src="image/logo.png" alt="" id="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="navitem">
+
+          <li class="nav-item"> <a class="nav-link active" aria-current="page" href="accueil.html">ACCUEIL</a></li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" >
+              A PROPOS
+            </a>
+            
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="apropos-nettoyage-casablanca.html">Nettoyage Casablanca</a>
+            </ul>
+          </li>
+
+          <li class="nav-item"><a class="nav-link" href="particuliers.html">PARTICULIERS</a></li>
+          <li class="nav-item"><a class="nav-link" href="professionnels.html">PROFESSIONNELS</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown">
+              SERVICES
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="service-nettoyage-bureaux.html">Nettoyage du Bureaux</a></li>
+              <li><a class="dropdown-item" href="service-femme-de-menage.html">Femme de ménage</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-fin-chantier.html">Nettoyage de fin de chantier</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-apres-travaux.html">Nettoyage après travaux</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-locaux.html">Nettoyage de locaux</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-maisons.html">Nettoyage des maisons</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-appartement.html">Nettoyage appartement</a>
+              <li><a class="dropdown-item" href="service-nettoyage-villas.html">Nettoyage de villas</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-immeubles-residences.html">Nettoyage immeubles et résidences</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-hotels.html">Nettoyage hotels</a></li>
+              <li><a class="dropdown-item" href="service-nettoyage-restaurants.html">Nettoyage de restaurants</a>
+              <li><a class="dropdown-item" href="service-nettoyage-vitre.html">Nettoyage de vitres</a>
+              <li><a class="dropdown-item" href="service-nettoyage-industriel.html">Nettoyage indusriel</a>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown">
+            ACTIVITIES
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="activite-nettoyage-moquette.html">Nettoyage moquette</a></li>
+              <li><a class="dropdown-item" href="activite-nettoyage-parquets.html">Nettoyage de parquets</a></li>
+              <li><a class="dropdown-item" href="activite-poncage-cristallisation-marbres.html">Ponçage et cristalisation des marbres</a></li>
+              <li><a class="dropdown-item" href="activite-nettoyage-cristallisation-carrelages.html">Nettoyage et cristallisation carrelages</a></li>
+              <li><a class="dropdown-item" href="activite-nettoyage-cristallisation-mosaiques.html">Nettoyage et cristallisation de mosaiques</a></li>
+              <li><a class="dropdown-item" href="activite-poncage-cristallisation-sols.html">Ponçage et cristallisation sols</a></li>
+              <li><a class="dropdown-item" href="activite-poncage-parquets.html">Ponçage du parquets</a>
+              <li><a class="dropdown-item" href="activite-nettoyage-tapis.html">Nettoyage de tapis</a></li>
+              <li><a class="dropdown-item" href="activite-nettoyage-canapes.html">Nettoyage de canapés</a></li>
+              <li><a class="dropdown-item" href="activite-nettoyage-entretien-chaises.html">Nettoyage et l'entretien des chaises</a></li>
+              <li><a class="dropdown-item" href="activite-nettoyage-degressage-hottes.html">Nettoyage et dégraissage des hottes</a>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">BLOG</a></li>  
+          <li class="nav-item"><a class="nav-link" href="contactez-nous.html">CONTACTEZ-NOUS</a></li>
+        </ul>
+        <a class="btn btn-warning type my-2 my-sm-0" href="devis.html" id="btn">DEMENDEZ-DEVIS</a>
+    </div>
+  </div>
+</nav>
+
+<div class="header" id="headerservice" style="background-image:url(image/particulierheader.jpg);">      
+</div>
+
+<div class="container-fuild" id="container-service-1" >
+<div class="container" id="titre-particulier">
+<h2>SOCIÉTÉ DE NETTOYAGE POUR LES PARTICULIERS CASABLANCA MAROC PNS</h2>
+<hr id="min-hr">
+  <div>
+      <p>
+        Vous êtes Particulier et vous avez besoin d’un devis de <b>Nettoyage à Casablanca</b> pour Votre <a href="service-nettoyage-appartement.html">appartement</a>,
+         <a href="service-nettoyage-maisons.html">maison</a>,<a href="service-nettoyage-villas.html">villa</a> ,
+          <a href="service-nettoyage-apres-travaux.html">Nettoyage après travaux</a>, <a href="service-nettoyage-fin-chantier.html">Nettoyage fin de chantier </a>ou d’autre
+           <a href="activite-nettoyage-tapis.html">local nettoyage des tapis</a>, ou bien la 
+        <b>cristallisation et le ponçage du sol</b> , Contactez Nous, On vous proposez un devis gratuit avec des solutions efficaces.
+      </p>
+  </div>             
+</div>       
+</div>
+
+<div class="container-fuild" id="container-service-2">
+<div class="container" >
+  <div class="row" >
+    <div class="col-md-4 left" id="imgservice" style=" background-image: url(image/doc_img_net/nettoyage-particuliers.webp);">
+    </div>
+    <div class="col-md-8 right">
+        <p>
+          <b>PNS Nettoyage</b> est une  <b><u>société de nettoyage pour particulier</u></b> qui propose aux particuliers 
+          basés à <b><u>Casablanca</u></b> et partout au <b><u>Maroc</u></b> un service de nettoyage et d’entretien de leurs villas, appartements,… 
+          </p> 
+          <p>Parmi les services de ménage à domicile que notre entreprise de nettoyage pour particulier assure ,il y a :</p> 
+            <p>
+            <a href="service-nettoyage-vitre.html">Nettoyage vitres</a> intérieures et extérieures, Nettoyage de la cuisine, Nettoyage des portes et des encadrements, 
+            Shampooing de la  <a href="activite-nettoyage-moquette.html">Moquette</a> à l’injection et à l’extraction, Nettoyage des sols en 
+            <a href="activite-nettoyage-parquets.html">Parquet</a>, <a href="activite-poncage-cristallisation-marbres.html">Marbre</a>, <a href="activite-nettoyage-cristallisation-carrelages.html">Carrelage</a>,
+            <a href="activite-nettoyage-cristallisation-mosaiques.html">mosaïque</a>.
+          </p>
+    </div>    
+  </div>        
+</div>         
+</div>
+
+<div class="container-fuild" id="container-service-3">
+<div class="container">
+<div class="row">
+  <div class="col-md-4">
+      <h2 style="font-weight: bold; ">On est des spécialistes de nettoyage au MAROC</h2>
+      <hr id="min-hr">
+  </div>
+
+  <div class="col-md-4"> 
+      <p>
+        Besoin d’un spécialiste de <b>nettoyage à Casablanca</b> pour votre appartement, maison, Villa, garage, Nettoyage après travaux ou d’autre local ? Demandez PNS Nettoyage pour vos 
+        travaux de nettoyage professionnel et de confiance sur PNS Nettoyage ! Réservez votre devis sur nos services express.
+      </p> 
+      <p> 
+        Bénéficiez d’une rédaction de service particulier de nettoyage à domicile.
+      </p>
+      
+  </div>
+  <div class="col-md-4">
+      <p>
+        PNS vous propose des prestations de <a href="accueil.html">nettoyage à Casablanca</a> de qualité, un service qui répond à toutes vos attentes avec une équipe jeune et motivée qui intervient selon vos besoins dans le but unique de 
+        vous satisfaire même dans vos demandes les plus urgentes et ponctuelles.Outre ses activités de nettoyage professionnel,
+      </p> 
+      <p style="font-size: 14pt;">
+        Trouvez facilement une femme de ménage sur PNS Nettoyage
+      </p>           
+  </div>
+</div>
+</div>
+</div>
+
+<div class="containerfuild" id="service-card">
+  <div class="container">
+  <div class="row" id="rowservice-card">
+      <div class="col-md-3"  id="cs1">
+          <h5></h5>  <h4 class="title">Notre processus de travail</h4>
+          <h2>en 3 étapes</h2>
+          <p>Le nettoyage chez particuliers s’inscrit dans un process de travail organisé et méthodique.</p>
+      </div>
+      
+      <div class="col-md-3" id="cs2">
+              <i class="fa-regular fa-lightbulb"id="icons"  ></i>
+                <h4 class="title"> Planning & Stratégie</h4>
+              <p>Un responsable de la propreté des locaux est en charge d’établir un planning précis des 
+                  différentes opérations de nettoyage.</p>            
+      </div>
+      
+      <div class="col-md-3"  id="cs3">
+        <i class="fa-solid fa-pencil" id="icons"></i>
+        <h4 class="title">Suivi & contrôle</h4>
+        <p>Un contrôleur de la propreté des locaux est en charge de suivi et contrôle les différentes 
+          opérations de nettoyage.</p>
+      </div>
+
+      <div class="col-md-3"  id="cs4" >
+        <i class="fa-solid fa-rocket"id="icons"></i>
+          <h4 class="title">Audite qualité</h4>
+          <p>Un auditeur de la propreté des locaux est en charge d'audite qualité des différentes 
+            opérations de nettoyage.</p>
+      </div>
+      
+         
+ </div>
+  </div>
+</div>
+
+
+<footer class="text-center text-lg-start text-white" id="footer">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!--Grid row-->
+    <div class="row my-4" id="rowfooter">
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+        <div class=" shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto">
+          <img class="logo2" src="image/logo2.png" height="60" alt="" />
+        </div>
+        <p class="text-start">There are many variations of passages of Lorem Ipsum available, There are many variations of passages.</p>
+       
+        <h5>Follow Us On:</h5>
+        <ul class="list-unstyled d-flex flex-row justify-content-start">
+          <li><a class="px-2" href="#!"><i class="fa-brands fa-facebook-f"></i></a></li>
+          <li><a class=" px-2" href="#!"><i class="fa-brands fa-twitter"></i></a></li>
+          <li><a class=" px-2" href="#!"><i class="fa-brands fa-google-plus-g"></i></a></li>
+          <li><a class=" px-2" href="#!"><i class="fa-brands fa-pinterest"></i></a></li>
+          <li><a class=" ps-2" href="#!"><i class="fa-brands fa-linkedin-in"></i></a></li>
+        </ul>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4">Services</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="service-nettoyage-bureaux.html" >>  Nettoyage du Bureaux</a></li>
+          <li class="mb-2"><a href="service-nettoyage-maisons.html" >>  Nettoyage des maisons</a></li>
+          <li class="mb-2"><a href="service-nettoyage-vitre.html" >>  Nettoyage de vitres </a></li>
+          <li class="mb-2"><a href="service-femme-de-menage.html">>  Femme de ménage</a></li>
+          <li class="mb-2"><a href="service-nettoyage-fin-chantier.html" >>  Nettoyage de fin de chantier </a></li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4">Quik Link</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="apropos-nettoyage-casablanca.html" >>  A propos</a></li>
+          <li class="mb-2"><a href="particuliers.html">>  Particuliers</a></li>
+          <li class="mb-2"><a href="professionnels.html" >>  Professionnels</a></li>
+          <li class="mb-2"><a href="blog.html">>  Blog</a> </li>
+          <li class="mb-2"><a href="contactez-nous.html" >>  Contactez-nous</a></li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4">Corporate Office</h5>
+        <ul class="list-unstyled">
+          <li> <p ><i class="fas fa-map-marker-alt pe-2"></i>59 Street, B4 Appartment, Australia</p> </li>
+          <li><p><i class="fas fa-phone pe-2"></i>+985-8844-000</p></li>
+          <li><p><i class="fas fa-envelope pe-2 mb-0"></i> info@cleanix.com</p></li>
+          <li><p><i class="fa-regular fa-calendar-minus"></i> +985-8844-000</p></li>
+        </ul>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row--> 
+  </div>
+  <!-- Grid container -->
+  <hr>
+
+ 
+  <div class="row d-flex ">
+
+    <!-- Grid column -->
+    <div class="col-md-7 text-md-start" >
+      <!-- Copyright -->
+      <div class="p-3"><p> © 2023 clenix. All Rights Reserved.</p></div>
+      <!-- Copyright -->
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="col-md-5   text-md-end">
+      <a  href="#">Site Map . </a>
+      <a  href="#">Term Of Service .</a>
+      <a href="#">Privicy Policy</a>
+    </div>
+    <!-- Grid column -->
+
+  </div>
+
+  
+</footer>
+
+</body>
+</html>

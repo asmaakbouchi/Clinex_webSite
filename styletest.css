@@ -1,0 +1,352 @@
+
+#btn{ width: 200px; height: 45px; text-align: center; font-size: 12pt; background-color: rgba(247, 247, 0, 0.966);
+border-color: transparent; color: rgb(54, 54, 48) ;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+#btn:hover{color: #fff; background-color: rgb(0, 0, 119); border-color: transparent;}
+
+#imgservice{ background-size: 100% 100%; background-position: center center; background-repeat: no-repeat;}
+p{ font-size: 11pt; color: rgb(0, 0, 0);}
+ 
+/*-------------------------------------Navbar---------------------------------------------------*/
+
+.navbar .container-fluid { background-color: white; height: 70px;}
+.navbar-expand-lg{background-color: white;}
+#logo{ width: 170px; height: 43px; padding:0px 20px; left: 20px; margin-top: -1px;}
+#navitem .dropdown-menu{border-color: transparent; background-color: transparent;}
+#navitem .nav-link:hover{ color:   rgb(20, 115, 204);}
+#navitem .dropdown-item:hover{ color:white;  background-color: rgb(20, 115, 204); border-color:  rgb(20, 115, 204);}
+.dropdown:hover .dropdown-menu{display: block; }
+#navitem .nav-link{  padding: 10px; font-size: 12pt; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ color: rgb(0, 0, 119); }
+#navitem .dropdown-item{ color:   rgb(20, 115, 204); font-size: 12pt; border: solid 0.5px rgb(241, 239, 239);
+font-weight: bold; height: 38px; background-color: white;} 
+.navbar-collapse #btn{ border-radius:25px; width: 170px;}
+  
+/*-------------------------------------Header ---------------------------------------------------*/
+
+.header{ background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.6)),url(image/cleaning.jpg); 
+  background-size: 100% 100%; background-position: center center; background-repeat:
+   no-repeat; height:45vh;  padding-top: 26%;}
+
+#headerhome{ height:70vh;}
+
+.header .txtimg{ margin-top: -10%; text-align: center;  width: 100%; color: #fff;}
+
+/*________________________________headerservice__________________________________*/
+
+#headerservice .txtimg{margin-top: -12%; padding-left: 5%; color: white; text-align: left; }
+#headerservice .txtimg h1{font-family: 'Times New Roman', Times, serif;}
+
+/*_______________________________ header contact _______________________________________*/
+
+#headercontact { height: 38vh;background-color: rgb(0, 0, 119);}
+#headercontact .text-center{ font-weight: bold; color: #fff}
+
+/*-------------------------------------Container 1 ---------------------------------------------------*/
+#row1{padding-top: 50px;}
+#row2 h1{font-size: 25pt;}
+.left img{ width:550px; height: 550px;}
+#txt{margin-left: 40px; width: 500px;}
+#txt p{ font-size: 11pt; text-align: justify; color: rgb(54, 54, 48);}
+#txt h1,i{color: rgb(0, 0, 119);}
+  
+/*-------------------------------------Card title and text /icon ---------------------------------------------------*/
+#row2{ padding-top: 100px;}
+#row2 h1{color: rgb(0, 0, 119);font-weight: bold; }
+#row2 .right{font-size: 11pt;  text-align: justify; margin-bottom: 20px; }
+#rowc2{ margin-top: 2%;}
+
+#icon1{margin-top:10%; margin-left: 30%; font-size: 3em;padding: 10% 10%;
+background-color: rgb(20, 115, 204); border-radius: 50%; color:#fff; width: 110px;  height: 110px;}
+.card{width: 360px;}
+.card-body{height: 400px;}
+.card-title{padding-top: 5%; text-align: center; color:  rgb(0, 0, 119); font-family: 10pt; text-decoration: none;}
+.fa-arrow-circle-right{color: rgb(20, 115, 204); }
+.card-text{margin-top: 10%; margin-bottom: 10%; text-align: center;}
+.link-card{text-decoration: none; padding-left: 30%; color: black;}
+#container-card{margin-top: 3%; height: auto;}
+
+ 
+/*_________________________________Container 3_______________________________________*/
+
+#container3{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.6)),url(image/picture.jpg);
+  background-size: 100% 100%; background-position: center center; background-repeat: no-repeat; height: 320px;
+  width: 100%; color: #fff;}
+.text-center{ padding-top: 9%; }
+
+/*-------------------------------------Container 4 ---------------------------------------------------*/
+#container4{color:   rgb(20, 115, 204); height: 650px;}
+.text2{margin-bottom: 20px; padding-top: 100px;}
+.text2 h6{ color:  rgb(20, 115, 204);}
+.text2 span{ color: rgb(0, 0, 119); font-weight: bold; font-size: 15pt;}
+.text2 p{text-align: justify; font-size: 12pt;}
+.text2 h2,.text3 h2{ color: rgb(0, 0, 119); font-weight: bold;}
+
+/*-------------------------------------Container 5 ---------------------------------------------------*/
+#container5{background-color:rgb(243, 243, 243);}
+.text3{ padding-top: -10%;}
+.cercl-img1{ width: 400px;height: 400px; border-radius: 50%; margin-left:20% ;margin-top: -3%;
+  background-image:url(image/clean4.png); background-size: 100% 100%; background-position: center center;background-repeat: no-repeat; }
+.cercl-img2{ width:  280px;height: 280px; border-radius: 50%;margin-left:60% ; margin-top: -30%;
+  background-image:url(image/room.jpg); background-size: 100% 100%; background-position: center center;background-repeat: no-repeat;}
+.cercl-img3{
+    width: 290px; height: 290px; border-radius: 50%; margin-left:20% ; margin-top: -45%;
+    background-image:url(image/clean3.png); background-size: 100% 100%; background-position: center center;background-repeat: no-repeat;}
+#box-img{padding-top: 50px;}
+#card2{background-color: transparent; border: none; text-align: center;}
+#card2 i{margin-left: -4%; border-radius: 8%; width: 140px; height: 140px; padding-top: 15%;
+transform: rotate(15deg); transition: all 1s ease-in-out;}
+#card2 i:hover{background-color:#fff; color: rgb(20, 115, 204); transform: rotate(0deg);
+  box-shadow: 5px 8px 5px rgba(0, 0, 0, 0.3);}
+
+/*-------------------------------------Container 6 ---------------------------------------------------*/
+#container6 #row3{height: 350px;}
+#containerphoto .row .text-center, #containerphoto #btn{display: none;}
+#containerphoto{margin-left: 1%;width: 98%;}
+#containerphoto #row3 .col-md-3{background-position: center center; background-repeat: no-repeat;
+background-size: 100% 100%;  }
+#row3 #col1{background-image: url(image/clean2.jpg);}
+#row3 #col2{ background-image: url(image/bedroom.jpg);}
+#row3 #col3{ background-image: url(image/floor.jpg);}
+#row3 #col4{background-image: url(image/doc_img_net/femme-de-menage.webp);}
+
+        
+/*-------------------------------------Container 7 ---------------------------------------------------*/
+
+#container7 #row4{ margin-top: 4%;}
+#icone2{margin-left: 22%; margin-top: -5%;display: flex;}
+#icone2 a{background-color: yellow; border-radius: 50%; width: 40px; height: 40px; 
+  margin-left:5px ; margin-right: 5px;}
+#icone2 a i{padding-left:35%; padding-top: 27%;}
+.img-of{width:  auto; height: 350px; border-radius: 50%; size: 100% 100%;background-position: center center;
+  background-repeat: none; background-size: 100% 100%; background-color: #F3FEFE;}
+#img-of1 {background-image: url(image/office1.png);}
+#img-of2{background-image: url(image/office2.png);}
+#img-of3{ background-image: url(image/office3.png);}
+
+
+/*---------------------------________________Container 8_________________----------------------------*/
+
+#container8{margin-top: 10%; height:650px; background-color: rgb(0, 0, 119);}
+.img-card{ width:  70px;height: 70px; border-radius: 50%;  size: 100% 100%;background-position: center center;
+  background-repeat: none; background-size: 100% 100%; background-color: #F3FEFE; margin-top: -12%;
+  margin-left: 43%;box-shadow: 2px 5px 5px 5px rgba(0, 0, 0, 0.3);}
+#img-card1{background-image: url(image/mark.jpg);}
+#img-card2{background-image: url(image/robby.jpg);}
+#container8 .card{width: 500px;height: 300px;margin-left:10px;margin-top: 10%;}
+.icon-star{display: flex; margin-left: 40%; padding-top: 5%;margin-bottom: -5%;}
+.icon-star i{padding-right: 1%; size: 8px;color: #FFD700;}
+#star-of{ color: gray;}
+#car4{height: 350px;}
+
+/*-------------------------------------Container 9 ---------------------------------------------------*/
+
+#container9{ background-color:rgb(243, 243, 243); height: 550px;}
+#row-text{margin-top: 2%; text-align: left;}
+
+/*-------------------------------------Container 10 ---------------------------------------------------*/
+#container10{margin-top: -2%; height: fit-content; padding-bottom: 5%;
+  .img-card1{ height: 200px; background-size: 100% 100%;background-position: center center;background-repeat: no-repeat;width: 100%
+  }
+  #imgc1{background-image: url(image/doc_img_net/nettoyage-bureau.webp);}
+  #imgc2{background-image: url(image/kitchen.jpg);}
+  #imgc3{background-image: url(image/doc_img_net/nettoyage-vitres.webp);}
+  #imgc4{background-image: url(image/doc_img_net/netoyage-maisons.webp);}
+  #imgc5{background-image: url(image/doc_img_net/nettoyage-fin-chantier.webp);}
+  #imgc6{background-image: url(image/doc_img_net/nettoyage-residence.webp);}
+  #container-card .card {height:420px; width: 330px; border: none; box-shadow:0px 3px 6px 6px rgba(0,0,0,0.1);}
+  #container-card .card-title {text-align: center; margin-left: 6%;}
+  #container-card .text{text-align: center; width: 90%;  margin-left: 6%;}
+  #container-card a{ text-decoration: none;}
+  #container-card a:hover{color: rgb(20, 115, 204);}
+}
+/*-----------------------------------------_____________________Service container_______________________-----------------------------------------------*/
+
+#container-service-1{margin-top: 4%;}
+#container-service-1 h2{font-weight: bold; color: rgb(0, 0, 119);}
+#container-service-2{margin-top: 5%}
+#container-service-2 .row .left{height: 220px; width: 350px;}
+#container-service-2 .row .right {padding-left: 2%;margin-top: 1%;}
+#min-hr{width: 50px; color: gray; height: 3px;}
+#container-service-3{margin-top: 5%;}
+#container-service-3 p{text-align: justify; font-size: 9.85pt;}
+#container-service-3 .row h2{ color: gray; font-family: 'Times New Roman', Times, serif;}
+#rowservice-card{margin-top: 5%;height: 240px;}
+#icons{width: 100px; height: 100px; color:white ; margin-top: 14%;font-size: 3em; margin-bottom: -10%;}
+#cs2,#cs3,#cs4{text-align: center; background-color: gray;}
+#cs1{ padding-top: 4%; background-color: rgb(0, 0, 119);}
+#rowservice-card p{font-size: 10pt; color: #FFF;}
+#rowservice-card .title,#cs1 h2{font-family: 'Times New Roman', Times, serif;color: #FFF;}
+
+#container-service-1 a ,#container-service-2 a,#container-service-3 a{
+  text-decoration: none;
+  color: rgb(20, 115, 204);
+}
+
+#container-service-1 a:hover,#container-service-2 a:hover,#container-service-3 a:hover{
+  text-decoration: underline;
+  color: rgb(0, 0, 119);
+}
+
+/*--------------------------------___________________ CANTACTEZ NOUS _____________________--------------------------------------*/
+
+#container-contact h5 {color: rgb(20, 115, 204)}
+#container-contact #minhr2{width: 100px; height: 3px; }
+#container-contact .form-group{margin-bottom: 3%;}
+#container-contact  li{list-style: none;}
+#container-contact button{width: 100%; font-size: 13pt;}
+#container-contact fieldset{border: solid 1px rgb(0, 0, 119); width: 90%; padding: 3%; border-radius: 5px;}
+#container-contact .form-group span{color: red;}
+#container-contact a{text-decoration: none; color: rgb(0, 0, 119); font-weight: bold; }
+#container-contact a:hover{color: rgb(20, 115, 204);}
+
+/*------------------------_______________________Blog___________________________-------------------*/
+
+#container-card-blog .card {width: 330px; border-color:transparent}
+.imgblogcard{width: 100%; height:250px; background-position: center center; background-repeat: none; background-size: 100% 100%;}
+#container-card-blog p{text-align: justify;}
+#container-card-blog .card-title{text-align: left;}
+#container-card-blog h4{font-weight: bold;}
+
+/*------------------------______________  Blog 1_______________---------------------------------*/
+
+#container-blog1{width: 95%; margin-left:1%;}
+#container-blog1 .imgblog1{ height:350px ; margin-top: 5%; margin-bottom: 5%;
+  background-position: center center;background-repeat: none;background-size: 100% 100%;}
+
+
+#text-blog1 h4{margin-top: 2%; text-align: center; color: rgb(0, 0, 119); font-weight: bold;}
+#container-blog1 .racourci{display: flex; }
+#container-blog1 .racourci .card-title{text-align: left;  margin-left: 2%; width: 62%;}
+.imgblog-cercl{ width:  60px;height: 60px;border-radius: 50%; margin-left: 5%; 
+  background-position: center center;background-repeat: none; background-size: 100% 100%;}
+#blog-hr{height: 2px; color: blue; width: 80%;margin-bottom: 2%;  margin-left: 5%}
+#container-blog1 h3{font-weight: bold; color: rgb(20, 115, 204); font-family: 'Times New Roman', Times, serif ;
+text-align: left;}
+#container-blog1 p{text-align: justify; }
+
+/*------------------------------------ERROR 404 ---------------------------------------------------*/
+#error-404{margin-top: 6%;}
+#img-404{background-image: url(image/error-404.jpg); background-position: center center; 
+  background-size: 100% 100%;height:550px; }
+#text404{
+  padding: 12% 2%; ;
+}
+
+/*-------------------------------------Container FOOTER ---------------------------------------------------*/
+footer{background-color: rgb(0, 0, 119); margin-top: 70px;margin-bottom: 0%; }
+.logo2{margin-left: -20%;}
+#footer a,#footer p,#footer i{text-decoration: none;color: gainsboro; font-size: 11pt;}
+#footer a:hover{text-decoration: underline;}
+footer .pt-0{margin-top: -10%;}
+#hrfooter{margin-top: -2%;}
+footer .p-4{ margin-top: -9%; margin-bottom: -2%; }
+footer .text-md-end ,footer .text-md-start p{  margin-bottom: -1px; }
+footer .d-flex {width: 99%;}
+
+
+/* ------------------------_______________________Resposive css____________________________________--------------------------------- */
+
+@media (max-width: 393px),(max-width:428px),(max-width:428px),(max-width:759px),(max-width:999px){
+
+  .navbar .container-fluid {height: auto;margin-top:-0px;}
+  .header{ height: 300PX; padding-top: 45%;}
+  #headerhome{height: 320PX;}
+ .header h1,#container3 h1{font-size: 15pt;  }
+ .header h4{font-size: 10pt; }
+  #btn{ width: 150px;height: 30px;font-size: 10pt;}
+
+/*-------------------------------------Container 1 ---------------------------------------------------*/
+
+    #row1 {padding-top: 40px;}
+    .left img {width:98%;height: 290px;}
+     #txt { margin-left:10px;width: 315px;}
+    .row #txt2{ margin-left: 2%; width: 340px;}
+
+/*-------------------------------------text /card---------------------------------------------------*/
+   
+    #row2 {padding-top: 50px;}
+    .card-body{ height: 400px;}
+    .card{width: 310px; height: 400px;margin-bottom: 5%;}
+  
+/*-------------------------------------Container 3 ---------------------------------------------------*/
+
+#container3{ height: 250px;}
+.text-center{padding-top: 20%;}
+.text2{margin-top: -60px; margin-left:10px; width: 315px;}
+.cercl-img1{width: 300px; height: 300px; margin-left:5% ; margin-top: -3%;}
+.cercl-img2{ width:  200px; height: 200px; margin-left:40% ; margin-top: -30%;}
+.cercl-img3{ width: 200px; height: 200px; margin-left:3% ; margin-top: -50%;}
+#box-img{margin-top: -50px;}
+
+/*-------------------------------------Container 5 ---------------------------------------------------*/
+#container5{margin-top: 550px; }
+#container5-5{margin-top: 20%;}
+#card2{margin-left: 5%; height: 360px;}
+#card2 i{ padding-left: 10%;  margin-top: -15%; }
+#row2 h1{font-size: 18pt; padding-left:  2%;}
+
+/*-------------------------------------Container 6 ---------------------------------------------------*/
+
+#container6 #containerphoto #row3  { width: 95%; margin-left: 3%;}
+#container6 #row3,#container9 {height:1100px;}
+
+/*-------------------------------------Container 7 ---------------------------------------------------*/
+
+#container7 .img-of{height: 300px;width: 300px;margin-top: 10%;margin-left: 5%;}
+  
+/*-------------------------------------Container 8 ---------------------------------------------------*/
+
+#container8{ height: 900px;}
+#container8 .img-card{width: 65px; height: 65px; margin-top: -18%;margin-left: 40%;}
+.icon-star{ margin-left: 35%; }
+#container8 .card,#container9 .card{width: 300px;margin-left:10px;}
+  
+/*-------------------------------------Container 9 ---------------------------------------------------*/
+
+  #container9{height: 1050px; }
+  #container9 #row-text #txt2{text-align: center;}
+  #row-container{ margin-top: -5%; }
+  
+/*-------------------------------------Container 10 ---------------------------------------------------*/
+
+ #container10 .card{ width: 300px; margin-left:5px; margin-bottom: 10%;}
+
+/*-------------------------______________Service responsive________________--------------------------*/
+#container-service-2 #imgservice{width: 330px; margin-left: 3%;margin-bottom: 5%;}
+#container-service-1,#container-service-2 {text-align: center;}
+#headerservice .txtimg{ margin-top: 5%; width: 100%; }
+#service-card{margin-bottom: 600px;}
+
+
+/*----------------------------____________________Contact responsive_______________________-------------------------*/
+
+#container-contact fieldset{ width: 98%; padding: 5%; }
+#container-contact .col-md-5{margin-top: 10%;}
+#container-contact #btn{height: 40px;margin-top: 1%;}
+#headercontact .text-center{ padding-top: 40%;}
+
+
+/*------------------------______________ resposive Blog 1_______________---------------------------------*/
+
+#container-blog1{margin-top: 26%; }
+#container-blog1 .imgblog1{ width:310px; height:180px; margin-left: -1%; }
+#container-blog1 .racourci{ margin-left: 6%; margin-top: 5%;}
+#container-blog1 hr{margin-left: 10%; width: 84%;}
+
+
+/*-------------------------------------Footer ---------------------------------------------------*/
+
+footer .text-md-end{margin-top: 5%; margin-bottom: 1%;}
+#error-404{margin-top: 20%;}
+#img-404{height:300px; margin-top: -4%; }
+#text404{
+  text-align: center;
+  #btn{width:50%;}
+}
+
+}
+
+
+
